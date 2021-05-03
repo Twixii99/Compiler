@@ -76,27 +76,27 @@ include CMakeFiles/Compiler.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Compiler.dir/flags.make
 
-CMakeFiles/Compiler.dir/main.cpp.obj: CMakeFiles/Compiler.dir/flags.make
-CMakeFiles/Compiler.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magdy\CLionProjects\Compiler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Compiler.dir/main.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Compiler.dir\main.cpp.obj -c C:\Users\magdy\CLionProjects\Compiler\main.cpp
+CMakeFiles/Compiler.dir/NFAbuilder.cpp.obj: CMakeFiles/Compiler.dir/flags.make
+CMakeFiles/Compiler.dir/NFAbuilder.cpp.obj: ../NFAbuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magdy\CLionProjects\Compiler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Compiler.dir/NFAbuilder.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Compiler.dir\NFAbuilder.cpp.obj -c C:\Users\magdy\CLionProjects\Compiler\NFAbuilder.cpp
 
-CMakeFiles/Compiler.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler.dir/main.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magdy\CLionProjects\Compiler\main.cpp > CMakeFiles\Compiler.dir\main.cpp.i
+CMakeFiles/Compiler.dir/NFAbuilder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler.dir/NFAbuilder.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magdy\CLionProjects\Compiler\NFAbuilder.cpp > CMakeFiles\Compiler.dir\NFAbuilder.cpp.i
 
-CMakeFiles/Compiler.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/main.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magdy\CLionProjects\Compiler\main.cpp -o CMakeFiles\Compiler.dir\main.cpp.s
+CMakeFiles/Compiler.dir/NFAbuilder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/NFAbuilder.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magdy\CLionProjects\Compiler\NFAbuilder.cpp -o CMakeFiles\Compiler.dir\NFAbuilder.cpp.s
 
 # Object files for target Compiler
 Compiler_OBJECTS = \
-"CMakeFiles/Compiler.dir/main.cpp.obj"
+"CMakeFiles/Compiler.dir/NFAbuilder.cpp.obj"
 
 # External object files for target Compiler
 Compiler_EXTERNAL_OBJECTS =
 
-Compiler.exe: CMakeFiles/Compiler.dir/main.cpp.obj
+Compiler.exe: CMakeFiles/Compiler.dir/NFAbuilder.cpp.obj
 Compiler.exe: CMakeFiles/Compiler.dir/build.make
 Compiler.exe: CMakeFiles/Compiler.dir/linklibs.rsp
 Compiler.exe: CMakeFiles/Compiler.dir/objects1.rsp

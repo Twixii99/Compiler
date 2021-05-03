@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Compiler.dir/main.cpp.obj"
+  "CMakeFiles/Compiler.dir/NFAbuilder.cpp.obj"
   "Compiler.exe"
   "Compiler.exe.manifest"
   "Compiler.pdb"

@@ -83,13 +83,13 @@
 		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/DFAbuiler.h">
 			<Option target="Compiler"/>
 		</Unit>
+		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/NFAbuilder.cpp">
+			<Option target="Compiler"/>
+		</Unit>
 		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/NFAbuiler.h">
 			<Option target="Compiler"/>
 		</Unit>
 		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/lexical_analyzer.h">
-			<Option target="Compiler"/>
-		</Unit>
-		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/main.cpp">
 			<Option target="Compiler"/>
 		</Unit>
 		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/parser.h">

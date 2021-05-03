@@ -142,32 +142,32 @@ Compiler/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/build
 .PHONY : Compiler/fast
 
-main.obj: main.cpp.obj
+NFAbuilder.obj: NFAbuilder.cpp.obj
 
-.PHONY : main.obj
+.PHONY : NFAbuilder.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+NFAbuilder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/NFAbuilder.cpp.obj
+.PHONY : NFAbuilder.cpp.obj
 
-main.i: main.cpp.i
+NFAbuilder.i: NFAbuilder.cpp.i
 
-.PHONY : main.i
+.PHONY : NFAbuilder.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/main.cpp.i
-.PHONY : main.cpp.i
+NFAbuilder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/NFAbuilder.cpp.i
+.PHONY : NFAbuilder.cpp.i
 
-main.s: main.cpp.s
+NFAbuilder.s: NFAbuilder.cpp.s
 
-.PHONY : main.s
+.PHONY : NFAbuilder.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/main.cpp.s
-.PHONY : main.cpp.s
+NFAbuilder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/NFAbuilder.cpp.s
+.PHONY : NFAbuilder.cpp.s
 
 # Help Target
 help:
@@ -178,9 +178,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Compiler
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... NFAbuilder.obj
+	@echo ... NFAbuilder.i
+	@echo ... NFAbuilder.s
 .PHONY : help
 
 

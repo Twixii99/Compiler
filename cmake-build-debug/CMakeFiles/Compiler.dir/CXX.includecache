@@ -6,7 +6,17 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/magdy/CLionProjects/Compiler/main.cpp
-iostream
+C:/Users/magdy/CLionProjects/Compiler/NFAbuilder.cpp
+NFAbuiler.h
+C:/Users/magdy/CLionProjects/Compiler/NFAbuiler.h
+bits/stdc++.h
+-
+
+C:/Users/magdy/CLionProjects/Compiler/NFAbuiler.h
+bits/stdc++.h
+-
+string
+-
+unordered_map
 -
 

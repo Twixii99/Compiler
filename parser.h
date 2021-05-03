@@ -26,36 +26,22 @@ digit digit
 
 **/
 
+using namespace std;
 
 class Parser{
 public:
-    void Parser(string file){
+     Parser(string file){
 
     }
 
     bool has_next(){
         // true -> there is another expression
     };
-    pair<string,string> get_next(){
-      //
 
-      // pair<label,expression>
-        //<int,int>
-        //<if,if>
-        //<;,;>
-        //<label,expression>
+    pair<string,pair<string,bool>> get_next(){
     }
 
 };
 
-class Parser{
-public:
-    bool has_next(){
-
-    }
-
-
-
-};
 
 #endif //COMPILER_PARSER_H
