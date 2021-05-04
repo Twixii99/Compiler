@@ -83,19 +83,40 @@
 		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/DFAbuiler.h">
 			<Option target="Compiler"/>
 		</Unit>
+		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/Main.cpp">
+			<Option target="Compiler"/>
+		</Unit>
 		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/NFAbuilder.cpp">
 			<Option target="Compiler"/>
 		</Unit>
-		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/NFAbuiler.h">
+		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/NFAbuilder.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/NFAparser.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/NFAparser.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/graph.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/graph.h">
 			<Option target="Compiler"/>
 		</Unit>
 		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/lexical_analyzer.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/parser.cpp">
 			<Option target="Compiler"/>
 		</Unit>
 		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/parser.h">
 			<Option target="Compiler"/>
 		</Unit>
 		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/printer.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/regex_parser.h">
 			<Option target="Compiler"/>
 		</Unit>
 		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/CMakeLists.txt">

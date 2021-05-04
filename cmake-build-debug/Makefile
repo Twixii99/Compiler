@@ -142,6 +142,33 @@ Compiler/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/build
 .PHONY : Compiler/fast
 
+Main.obj: Main.cpp.obj
+
+.PHONY : Main.obj
+
+# target to build an object file
+Main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/Main.cpp.obj
+.PHONY : Main.cpp.obj
+
+Main.i: Main.cpp.i
+
+.PHONY : Main.i
+
+# target to preprocess a source file
+Main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/Main.cpp.i
+.PHONY : Main.cpp.i
+
+Main.s: Main.cpp.s
+
+.PHONY : Main.s
+
+# target to generate assembly for a file
+Main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/Main.cpp.s
+.PHONY : Main.cpp.s
+
 NFAbuilder.obj: NFAbuilder.cpp.obj
 
 .PHONY : NFAbuilder.obj
@@ -169,6 +196,87 @@ NFAbuilder.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/NFAbuilder.cpp.s
 .PHONY : NFAbuilder.cpp.s
 
+NFAparser.obj: NFAparser.cpp.obj
+
+.PHONY : NFAparser.obj
+
+# target to build an object file
+NFAparser.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/NFAparser.cpp.obj
+.PHONY : NFAparser.cpp.obj
+
+NFAparser.i: NFAparser.cpp.i
+
+.PHONY : NFAparser.i
+
+# target to preprocess a source file
+NFAparser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/NFAparser.cpp.i
+.PHONY : NFAparser.cpp.i
+
+NFAparser.s: NFAparser.cpp.s
+
+.PHONY : NFAparser.s
+
+# target to generate assembly for a file
+NFAparser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/NFAparser.cpp.s
+.PHONY : NFAparser.cpp.s
+
+graph.obj: graph.cpp.obj
+
+.PHONY : graph.obj
+
+# target to build an object file
+graph.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/graph.cpp.obj
+.PHONY : graph.cpp.obj
+
+graph.i: graph.cpp.i
+
+.PHONY : graph.i
+
+# target to preprocess a source file
+graph.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/graph.cpp.i
+.PHONY : graph.cpp.i
+
+graph.s: graph.cpp.s
+
+.PHONY : graph.s
+
+# target to generate assembly for a file
+graph.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/graph.cpp.s
+.PHONY : graph.cpp.s
+
+parser.obj: parser.cpp.obj
+
+.PHONY : parser.obj
+
+# target to build an object file
+parser.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/parser.cpp.obj
+.PHONY : parser.cpp.obj
+
+parser.i: parser.cpp.i
+
+.PHONY : parser.i
+
+# target to preprocess a source file
+parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/parser.cpp.i
+.PHONY : parser.cpp.i
+
+parser.s: parser.cpp.s
+
+.PHONY : parser.s
+
+# target to generate assembly for a file
+parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/parser.cpp.s
+.PHONY : parser.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -178,9 +286,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Compiler
+	@echo ... Main.obj
+	@echo ... Main.i
+	@echo ... Main.s
 	@echo ... NFAbuilder.obj
 	@echo ... NFAbuilder.i
 	@echo ... NFAbuilder.s
+	@echo ... NFAparser.obj
+	@echo ... NFAparser.i
+	@echo ... NFAparser.s
+	@echo ... graph.obj
+	@echo ... graph.i
+	@echo ... graph.s
+	@echo ... parser.obj
+	@echo ... parser.i
+	@echo ... parser.s
 .PHONY : help
 
 
