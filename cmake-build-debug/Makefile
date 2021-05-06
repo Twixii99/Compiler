@@ -142,6 +142,33 @@ Compiler/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/build
 .PHONY : Compiler/fast
 
+DFAbuiler.obj: DFAbuiler.cpp.obj
+
+.PHONY : DFAbuiler.obj
+
+# target to build an object file
+DFAbuiler.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/DFAbuiler.cpp.obj
+.PHONY : DFAbuiler.cpp.obj
+
+DFAbuiler.i: DFAbuiler.cpp.i
+
+.PHONY : DFAbuiler.i
+
+# target to preprocess a source file
+DFAbuiler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/DFAbuiler.cpp.i
+.PHONY : DFAbuiler.cpp.i
+
+DFAbuiler.s: DFAbuiler.cpp.s
+
+.PHONY : DFAbuiler.s
+
+# target to generate assembly for a file
+DFAbuiler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/DFAbuiler.cpp.s
+.PHONY : DFAbuiler.cpp.s
+
 Main.obj: Main.cpp.obj
 
 .PHONY : Main.obj
@@ -286,6 +313,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Compiler
+	@echo ... DFAbuiler.obj
+	@echo ... DFAbuiler.i
+	@echo ... DFAbuiler.s
 	@echo ... Main.obj
 	@echo ... Main.i
 	@echo ... Main.s

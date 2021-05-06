@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Compiler.dir/DFAbuiler.cpp.obj"
   "CMakeFiles/Compiler.dir/Main.cpp.obj"
   "CMakeFiles/Compiler.dir/NFAbuilder.cpp.obj"
   "CMakeFiles/Compiler.dir/NFAparser.cpp.obj"

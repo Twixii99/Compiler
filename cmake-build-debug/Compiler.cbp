@@ -80,6 +80,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/DFAbuiler.cpp">
+			<Option target="Compiler"/>
+		</Unit>
 		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/DFAbuiler.h">
 			<Option target="Compiler"/>
 		</Unit>
