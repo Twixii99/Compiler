@@ -80,46 +80,49 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/DFAbuiler.cpp">
+		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/DFA/DFAbuilder.cpp">
 			<Option target="Compiler"/>
 		</Unit>
-		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/DFAbuiler.h">
+		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/DFA/DFAbuilder.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/DFAminimizer/DFAminimizer.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/DFAminimizer/DFAminimizer.h">
 			<Option target="Compiler"/>
 		</Unit>
 		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/Main.cpp">
 			<Option target="Compiler"/>
 		</Unit>
-		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/NFAbuilder.cpp">
+		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/NFA/NFAbuilder.cpp">
 			<Option target="Compiler"/>
 		</Unit>
-		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/NFAbuilder.h">
+		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/NFA/NFAbuilder.h">
 			<Option target="Compiler"/>
 		</Unit>
-		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/NFAparser.cpp">
+		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/NFA/NFAparser.cpp">
 			<Option target="Compiler"/>
 		</Unit>
-		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/NFAparser.h">
+		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/NFA/NFAparser.h">
 			<Option target="Compiler"/>
 		</Unit>
-		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/graph.cpp">
+		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/NFA/graph.cpp">
 			<Option target="Compiler"/>
 		</Unit>
-		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/graph.h">
+		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/NFA/graph.h">
 			<Option target="Compiler"/>
 		</Unit>
-		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/lexical_analyzer.h">
+		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/parser/parser.cpp">
 			<Option target="Compiler"/>
 		</Unit>
-		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/parser.cpp">
+		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/parser/parser.h">
 			<Option target="Compiler"/>
 		</Unit>
-		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/parser.h">
+		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/parser/regex_parser.h">
 			<Option target="Compiler"/>
 		</Unit>
 		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/printer.h">
-			<Option target="Compiler"/>
-		</Unit>
-		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/regex_parser.h">
 			<Option target="Compiler"/>
 		</Unit>
 		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/CMakeLists.txt">

@@ -3,10 +3,9 @@
 //
 
 
-#include "DFAbuilder.h"
+#include "DFAminimizer/DFAminimizer.h"
 
 using namespace std;
 int main() {
-    DFAbuilder dfAbuilder("C:\\Users\\magdy\\CLionProjects\\Compiler\\test.txt");
-    DFAstate* s = dfAbuilder.get_start_state();
+    DFAminimizer df("C:\\Users\\magdy\\CLionProjects\\Compiler\\test.txt");
 }

@@ -76,44 +76,44 @@ include CMakeFiles/Compiler.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Compiler.dir/flags.make
 
-CMakeFiles/Compiler.dir/NFAbuilder.cpp.obj: CMakeFiles/Compiler.dir/flags.make
-CMakeFiles/Compiler.dir/NFAbuilder.cpp.obj: ../NFAbuilder.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magdy\CLionProjects\Compiler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Compiler.dir/NFAbuilder.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Compiler.dir\NFAbuilder.cpp.obj -c C:\Users\magdy\CLionProjects\Compiler\NFAbuilder.cpp
+CMakeFiles/Compiler.dir/NFA/NFAbuilder.cpp.obj: CMakeFiles/Compiler.dir/flags.make
+CMakeFiles/Compiler.dir/NFA/NFAbuilder.cpp.obj: ../NFA/NFAbuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magdy\CLionProjects\Compiler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Compiler.dir/NFA/NFAbuilder.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Compiler.dir\NFA\NFAbuilder.cpp.obj -c C:\Users\magdy\CLionProjects\Compiler\NFA\NFAbuilder.cpp
 
-CMakeFiles/Compiler.dir/NFAbuilder.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler.dir/NFAbuilder.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magdy\CLionProjects\Compiler\NFAbuilder.cpp > CMakeFiles\Compiler.dir\NFAbuilder.cpp.i
+CMakeFiles/Compiler.dir/NFA/NFAbuilder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler.dir/NFA/NFAbuilder.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magdy\CLionProjects\Compiler\NFA\NFAbuilder.cpp > CMakeFiles\Compiler.dir\NFA\NFAbuilder.cpp.i
 
-CMakeFiles/Compiler.dir/NFAbuilder.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/NFAbuilder.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magdy\CLionProjects\Compiler\NFAbuilder.cpp -o CMakeFiles\Compiler.dir\NFAbuilder.cpp.s
+CMakeFiles/Compiler.dir/NFA/NFAbuilder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/NFA/NFAbuilder.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magdy\CLionProjects\Compiler\NFA\NFAbuilder.cpp -o CMakeFiles\Compiler.dir\NFA\NFAbuilder.cpp.s
 
-CMakeFiles/Compiler.dir/NFAparser.cpp.obj: CMakeFiles/Compiler.dir/flags.make
-CMakeFiles/Compiler.dir/NFAparser.cpp.obj: ../NFAparser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magdy\CLionProjects\Compiler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Compiler.dir/NFAparser.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Compiler.dir\NFAparser.cpp.obj -c C:\Users\magdy\CLionProjects\Compiler\NFAparser.cpp
+CMakeFiles/Compiler.dir/NFA/NFAparser.cpp.obj: CMakeFiles/Compiler.dir/flags.make
+CMakeFiles/Compiler.dir/NFA/NFAparser.cpp.obj: ../NFA/NFAparser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magdy\CLionProjects\Compiler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Compiler.dir/NFA/NFAparser.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Compiler.dir\NFA\NFAparser.cpp.obj -c C:\Users\magdy\CLionProjects\Compiler\NFA\NFAparser.cpp
 
-CMakeFiles/Compiler.dir/NFAparser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler.dir/NFAparser.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magdy\CLionProjects\Compiler\NFAparser.cpp > CMakeFiles\Compiler.dir\NFAparser.cpp.i
+CMakeFiles/Compiler.dir/NFA/NFAparser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler.dir/NFA/NFAparser.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magdy\CLionProjects\Compiler\NFA\NFAparser.cpp > CMakeFiles\Compiler.dir\NFA\NFAparser.cpp.i
 
-CMakeFiles/Compiler.dir/NFAparser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/NFAparser.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magdy\CLionProjects\Compiler\NFAparser.cpp -o CMakeFiles\Compiler.dir\NFAparser.cpp.s
+CMakeFiles/Compiler.dir/NFA/NFAparser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/NFA/NFAparser.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magdy\CLionProjects\Compiler\NFA\NFAparser.cpp -o CMakeFiles\Compiler.dir\NFA\NFAparser.cpp.s
 
-CMakeFiles/Compiler.dir/parser.cpp.obj: CMakeFiles/Compiler.dir/flags.make
-CMakeFiles/Compiler.dir/parser.cpp.obj: ../parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magdy\CLionProjects\Compiler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Compiler.dir/parser.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Compiler.dir\parser.cpp.obj -c C:\Users\magdy\CLionProjects\Compiler\parser.cpp
+CMakeFiles/Compiler.dir/parser/parser.cpp.obj: CMakeFiles/Compiler.dir/flags.make
+CMakeFiles/Compiler.dir/parser/parser.cpp.obj: ../parser/parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magdy\CLionProjects\Compiler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Compiler.dir/parser/parser.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Compiler.dir\parser\parser.cpp.obj -c C:\Users\magdy\CLionProjects\Compiler\parser\parser.cpp
 
-CMakeFiles/Compiler.dir/parser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler.dir/parser.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magdy\CLionProjects\Compiler\parser.cpp > CMakeFiles\Compiler.dir\parser.cpp.i
+CMakeFiles/Compiler.dir/parser/parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler.dir/parser/parser.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magdy\CLionProjects\Compiler\parser\parser.cpp > CMakeFiles\Compiler.dir\parser\parser.cpp.i
 
-CMakeFiles/Compiler.dir/parser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/parser.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magdy\CLionProjects\Compiler\parser.cpp -o CMakeFiles\Compiler.dir\parser.cpp.s
+CMakeFiles/Compiler.dir/parser/parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/parser/parser.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magdy\CLionProjects\Compiler\parser\parser.cpp -o CMakeFiles\Compiler.dir\parser\parser.cpp.s
 
 CMakeFiles/Compiler.dir/Main.cpp.obj: CMakeFiles/Compiler.dir/flags.make
 CMakeFiles/Compiler.dir/Main.cpp.obj: ../Main.cpp
@@ -128,55 +128,70 @@ CMakeFiles/Compiler.dir/Main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/Main.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magdy\CLionProjects\Compiler\Main.cpp -o CMakeFiles\Compiler.dir\Main.cpp.s
 
-CMakeFiles/Compiler.dir/graph.cpp.obj: CMakeFiles/Compiler.dir/flags.make
-CMakeFiles/Compiler.dir/graph.cpp.obj: ../graph.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magdy\CLionProjects\Compiler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Compiler.dir/graph.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Compiler.dir\graph.cpp.obj -c C:\Users\magdy\CLionProjects\Compiler\graph.cpp
+CMakeFiles/Compiler.dir/NFA/graph.cpp.obj: CMakeFiles/Compiler.dir/flags.make
+CMakeFiles/Compiler.dir/NFA/graph.cpp.obj: ../NFA/graph.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magdy\CLionProjects\Compiler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Compiler.dir/NFA/graph.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Compiler.dir\NFA\graph.cpp.obj -c C:\Users\magdy\CLionProjects\Compiler\NFA\graph.cpp
 
-CMakeFiles/Compiler.dir/graph.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler.dir/graph.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magdy\CLionProjects\Compiler\graph.cpp > CMakeFiles\Compiler.dir\graph.cpp.i
+CMakeFiles/Compiler.dir/NFA/graph.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler.dir/NFA/graph.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magdy\CLionProjects\Compiler\NFA\graph.cpp > CMakeFiles\Compiler.dir\NFA\graph.cpp.i
 
-CMakeFiles/Compiler.dir/graph.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/graph.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magdy\CLionProjects\Compiler\graph.cpp -o CMakeFiles\Compiler.dir\graph.cpp.s
+CMakeFiles/Compiler.dir/NFA/graph.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/NFA/graph.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magdy\CLionProjects\Compiler\NFA\graph.cpp -o CMakeFiles\Compiler.dir\NFA\graph.cpp.s
 
-CMakeFiles/Compiler.dir/DFAbuiler.cpp.obj: CMakeFiles/Compiler.dir/flags.make
-CMakeFiles/Compiler.dir/DFAbuiler.cpp.obj: ../DFAbuiler.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magdy\CLionProjects\Compiler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Compiler.dir/DFAbuiler.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Compiler.dir\DFAbuiler.cpp.obj -c C:\Users\magdy\CLionProjects\Compiler\DFAbuiler.cpp
+CMakeFiles/Compiler.dir/DFA/DFAbuilder.cpp.obj: CMakeFiles/Compiler.dir/flags.make
+CMakeFiles/Compiler.dir/DFA/DFAbuilder.cpp.obj: ../DFA/DFAbuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magdy\CLionProjects\Compiler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Compiler.dir/DFA/DFAbuilder.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Compiler.dir\DFA\DFAbuilder.cpp.obj -c C:\Users\magdy\CLionProjects\Compiler\DFA\DFAbuilder.cpp
 
-CMakeFiles/Compiler.dir/DFAbuiler.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler.dir/DFAbuiler.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magdy\CLionProjects\Compiler\DFAbuiler.cpp > CMakeFiles\Compiler.dir\DFAbuiler.cpp.i
+CMakeFiles/Compiler.dir/DFA/DFAbuilder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler.dir/DFA/DFAbuilder.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magdy\CLionProjects\Compiler\DFA\DFAbuilder.cpp > CMakeFiles\Compiler.dir\DFA\DFAbuilder.cpp.i
 
-CMakeFiles/Compiler.dir/DFAbuiler.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/DFAbuiler.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magdy\CLionProjects\Compiler\DFAbuiler.cpp -o CMakeFiles\Compiler.dir\DFAbuiler.cpp.s
+CMakeFiles/Compiler.dir/DFA/DFAbuilder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/DFA/DFAbuilder.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magdy\CLionProjects\Compiler\DFA\DFAbuilder.cpp -o CMakeFiles\Compiler.dir\DFA\DFAbuilder.cpp.s
+
+CMakeFiles/Compiler.dir/DFAminimizer/DFAminimizer.cpp.obj: CMakeFiles/Compiler.dir/flags.make
+CMakeFiles/Compiler.dir/DFAminimizer/DFAminimizer.cpp.obj: ../DFAminimizer/DFAminimizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\magdy\CLionProjects\Compiler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/Compiler.dir/DFAminimizer/DFAminimizer.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Compiler.dir\DFAminimizer\DFAminimizer.cpp.obj -c C:\Users\magdy\CLionProjects\Compiler\DFAminimizer\DFAminimizer.cpp
+
+CMakeFiles/Compiler.dir/DFAminimizer/DFAminimizer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler.dir/DFAminimizer/DFAminimizer.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\magdy\CLionProjects\Compiler\DFAminimizer\DFAminimizer.cpp > CMakeFiles\Compiler.dir\DFAminimizer\DFAminimizer.cpp.i
+
+CMakeFiles/Compiler.dir/DFAminimizer/DFAminimizer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/DFAminimizer/DFAminimizer.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\magdy\CLionProjects\Compiler\DFAminimizer\DFAminimizer.cpp -o CMakeFiles\Compiler.dir\DFAminimizer\DFAminimizer.cpp.s
 
 # Object files for target Compiler
 Compiler_OBJECTS = \
-"CMakeFiles/Compiler.dir/NFAbuilder.cpp.obj" \
-"CMakeFiles/Compiler.dir/NFAparser.cpp.obj" \
-"CMakeFiles/Compiler.dir/parser.cpp.obj" \
+"CMakeFiles/Compiler.dir/NFA/NFAbuilder.cpp.obj" \
+"CMakeFiles/Compiler.dir/NFA/NFAparser.cpp.obj" \
+"CMakeFiles/Compiler.dir/parser/parser.cpp.obj" \
 "CMakeFiles/Compiler.dir/Main.cpp.obj" \
-"CMakeFiles/Compiler.dir/graph.cpp.obj" \
-"CMakeFiles/Compiler.dir/DFAbuiler.cpp.obj"
+"CMakeFiles/Compiler.dir/NFA/graph.cpp.obj" \
+"CMakeFiles/Compiler.dir/DFA/DFAbuilder.cpp.obj" \
+"CMakeFiles/Compiler.dir/DFAminimizer/DFAminimizer.cpp.obj"
 
 # External object files for target Compiler
 Compiler_EXTERNAL_OBJECTS =
 
-Compiler.exe: CMakeFiles/Compiler.dir/NFAbuilder.cpp.obj
-Compiler.exe: CMakeFiles/Compiler.dir/NFAparser.cpp.obj
-Compiler.exe: CMakeFiles/Compiler.dir/parser.cpp.obj
+Compiler.exe: CMakeFiles/Compiler.dir/NFA/NFAbuilder.cpp.obj
+Compiler.exe: CMakeFiles/Compiler.dir/NFA/NFAparser.cpp.obj
+Compiler.exe: CMakeFiles/Compiler.dir/parser/parser.cpp.obj
 Compiler.exe: CMakeFiles/Compiler.dir/Main.cpp.obj
-Compiler.exe: CMakeFiles/Compiler.dir/graph.cpp.obj
-Compiler.exe: CMakeFiles/Compiler.dir/DFAbuiler.cpp.obj
+Compiler.exe: CMakeFiles/Compiler.dir/NFA/graph.cpp.obj
+Compiler.exe: CMakeFiles/Compiler.dir/DFA/DFAbuilder.cpp.obj
+Compiler.exe: CMakeFiles/Compiler.dir/DFAminimizer/DFAminimizer.cpp.obj
 Compiler.exe: CMakeFiles/Compiler.dir/build.make
 Compiler.exe: CMakeFiles/Compiler.dir/linklibs.rsp
 Compiler.exe: CMakeFiles/Compiler.dir/objects1.rsp
 Compiler.exe: CMakeFiles/Compiler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\magdy\CLionProjects\Compiler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Compiler.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\magdy\CLionProjects\Compiler\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable Compiler.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Compiler.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

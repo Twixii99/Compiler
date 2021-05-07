@@ -142,32 +142,59 @@ Compiler/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/build
 .PHONY : Compiler/fast
 
-DFAbuiler.obj: DFAbuiler.cpp.obj
+DFA/DFAbuilder.obj: DFA/DFAbuilder.cpp.obj
 
-.PHONY : DFAbuiler.obj
+.PHONY : DFA/DFAbuilder.obj
 
 # target to build an object file
-DFAbuiler.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/DFAbuiler.cpp.obj
-.PHONY : DFAbuiler.cpp.obj
+DFA/DFAbuilder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/DFA/DFAbuilder.cpp.obj
+.PHONY : DFA/DFAbuilder.cpp.obj
 
-DFAbuiler.i: DFAbuiler.cpp.i
+DFA/DFAbuilder.i: DFA/DFAbuilder.cpp.i
 
-.PHONY : DFAbuiler.i
+.PHONY : DFA/DFAbuilder.i
 
 # target to preprocess a source file
-DFAbuiler.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/DFAbuiler.cpp.i
-.PHONY : DFAbuiler.cpp.i
+DFA/DFAbuilder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/DFA/DFAbuilder.cpp.i
+.PHONY : DFA/DFAbuilder.cpp.i
 
-DFAbuiler.s: DFAbuiler.cpp.s
+DFA/DFAbuilder.s: DFA/DFAbuilder.cpp.s
 
-.PHONY : DFAbuiler.s
+.PHONY : DFA/DFAbuilder.s
 
 # target to generate assembly for a file
-DFAbuiler.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/DFAbuiler.cpp.s
-.PHONY : DFAbuiler.cpp.s
+DFA/DFAbuilder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/DFA/DFAbuilder.cpp.s
+.PHONY : DFA/DFAbuilder.cpp.s
+
+DFAminimizer/DFAminimizer.obj: DFAminimizer/DFAminimizer.cpp.obj
+
+.PHONY : DFAminimizer/DFAminimizer.obj
+
+# target to build an object file
+DFAminimizer/DFAminimizer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/DFAminimizer/DFAminimizer.cpp.obj
+.PHONY : DFAminimizer/DFAminimizer.cpp.obj
+
+DFAminimizer/DFAminimizer.i: DFAminimizer/DFAminimizer.cpp.i
+
+.PHONY : DFAminimizer/DFAminimizer.i
+
+# target to preprocess a source file
+DFAminimizer/DFAminimizer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/DFAminimizer/DFAminimizer.cpp.i
+.PHONY : DFAminimizer/DFAminimizer.cpp.i
+
+DFAminimizer/DFAminimizer.s: DFAminimizer/DFAminimizer.cpp.s
+
+.PHONY : DFAminimizer/DFAminimizer.s
+
+# target to generate assembly for a file
+DFAminimizer/DFAminimizer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/DFAminimizer/DFAminimizer.cpp.s
+.PHONY : DFAminimizer/DFAminimizer.cpp.s
 
 Main.obj: Main.cpp.obj
 
@@ -196,113 +223,113 @@ Main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/Main.cpp.s
 .PHONY : Main.cpp.s
 
-NFAbuilder.obj: NFAbuilder.cpp.obj
+NFA/NFAbuilder.obj: NFA/NFAbuilder.cpp.obj
 
-.PHONY : NFAbuilder.obj
-
-# target to build an object file
-NFAbuilder.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/NFAbuilder.cpp.obj
-.PHONY : NFAbuilder.cpp.obj
-
-NFAbuilder.i: NFAbuilder.cpp.i
-
-.PHONY : NFAbuilder.i
-
-# target to preprocess a source file
-NFAbuilder.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/NFAbuilder.cpp.i
-.PHONY : NFAbuilder.cpp.i
-
-NFAbuilder.s: NFAbuilder.cpp.s
-
-.PHONY : NFAbuilder.s
-
-# target to generate assembly for a file
-NFAbuilder.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/NFAbuilder.cpp.s
-.PHONY : NFAbuilder.cpp.s
-
-NFAparser.obj: NFAparser.cpp.obj
-
-.PHONY : NFAparser.obj
+.PHONY : NFA/NFAbuilder.obj
 
 # target to build an object file
-NFAparser.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/NFAparser.cpp.obj
-.PHONY : NFAparser.cpp.obj
+NFA/NFAbuilder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/NFA/NFAbuilder.cpp.obj
+.PHONY : NFA/NFAbuilder.cpp.obj
 
-NFAparser.i: NFAparser.cpp.i
+NFA/NFAbuilder.i: NFA/NFAbuilder.cpp.i
 
-.PHONY : NFAparser.i
+.PHONY : NFA/NFAbuilder.i
 
 # target to preprocess a source file
-NFAparser.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/NFAparser.cpp.i
-.PHONY : NFAparser.cpp.i
+NFA/NFAbuilder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/NFA/NFAbuilder.cpp.i
+.PHONY : NFA/NFAbuilder.cpp.i
 
-NFAparser.s: NFAparser.cpp.s
+NFA/NFAbuilder.s: NFA/NFAbuilder.cpp.s
 
-.PHONY : NFAparser.s
+.PHONY : NFA/NFAbuilder.s
 
 # target to generate assembly for a file
-NFAparser.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/NFAparser.cpp.s
-.PHONY : NFAparser.cpp.s
+NFA/NFAbuilder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/NFA/NFAbuilder.cpp.s
+.PHONY : NFA/NFAbuilder.cpp.s
 
-graph.obj: graph.cpp.obj
+NFA/NFAparser.obj: NFA/NFAparser.cpp.obj
 
-.PHONY : graph.obj
+.PHONY : NFA/NFAparser.obj
 
 # target to build an object file
-graph.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/graph.cpp.obj
-.PHONY : graph.cpp.obj
+NFA/NFAparser.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/NFA/NFAparser.cpp.obj
+.PHONY : NFA/NFAparser.cpp.obj
 
-graph.i: graph.cpp.i
+NFA/NFAparser.i: NFA/NFAparser.cpp.i
 
-.PHONY : graph.i
+.PHONY : NFA/NFAparser.i
 
 # target to preprocess a source file
-graph.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/graph.cpp.i
-.PHONY : graph.cpp.i
+NFA/NFAparser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/NFA/NFAparser.cpp.i
+.PHONY : NFA/NFAparser.cpp.i
 
-graph.s: graph.cpp.s
+NFA/NFAparser.s: NFA/NFAparser.cpp.s
 
-.PHONY : graph.s
+.PHONY : NFA/NFAparser.s
 
 # target to generate assembly for a file
-graph.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/graph.cpp.s
-.PHONY : graph.cpp.s
+NFA/NFAparser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/NFA/NFAparser.cpp.s
+.PHONY : NFA/NFAparser.cpp.s
 
-parser.obj: parser.cpp.obj
+NFA/graph.obj: NFA/graph.cpp.obj
 
-.PHONY : parser.obj
+.PHONY : NFA/graph.obj
 
 # target to build an object file
-parser.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/parser.cpp.obj
-.PHONY : parser.cpp.obj
+NFA/graph.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/NFA/graph.cpp.obj
+.PHONY : NFA/graph.cpp.obj
 
-parser.i: parser.cpp.i
+NFA/graph.i: NFA/graph.cpp.i
 
-.PHONY : parser.i
+.PHONY : NFA/graph.i
 
 # target to preprocess a source file
-parser.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/parser.cpp.i
-.PHONY : parser.cpp.i
+NFA/graph.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/NFA/graph.cpp.i
+.PHONY : NFA/graph.cpp.i
 
-parser.s: parser.cpp.s
+NFA/graph.s: NFA/graph.cpp.s
 
-.PHONY : parser.s
+.PHONY : NFA/graph.s
 
 # target to generate assembly for a file
-parser.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/parser.cpp.s
-.PHONY : parser.cpp.s
+NFA/graph.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/NFA/graph.cpp.s
+.PHONY : NFA/graph.cpp.s
+
+parser/parser.obj: parser/parser.cpp.obj
+
+.PHONY : parser/parser.obj
+
+# target to build an object file
+parser/parser.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/parser/parser.cpp.obj
+.PHONY : parser/parser.cpp.obj
+
+parser/parser.i: parser/parser.cpp.i
+
+.PHONY : parser/parser.i
+
+# target to preprocess a source file
+parser/parser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/parser/parser.cpp.i
+.PHONY : parser/parser.cpp.i
+
+parser/parser.s: parser/parser.cpp.s
+
+.PHONY : parser/parser.s
+
+# target to generate assembly for a file
+parser/parser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/parser/parser.cpp.s
+.PHONY : parser/parser.cpp.s
 
 # Help Target
 help:
@@ -313,24 +340,27 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Compiler
-	@echo ... DFAbuiler.obj
-	@echo ... DFAbuiler.i
-	@echo ... DFAbuiler.s
+	@echo ... DFA/DFAbuilder.obj
+	@echo ... DFA/DFAbuilder.i
+	@echo ... DFA/DFAbuilder.s
+	@echo ... DFAminimizer/DFAminimizer.obj
+	@echo ... DFAminimizer/DFAminimizer.i
+	@echo ... DFAminimizer/DFAminimizer.s
 	@echo ... Main.obj
 	@echo ... Main.i
 	@echo ... Main.s
-	@echo ... NFAbuilder.obj
-	@echo ... NFAbuilder.i
-	@echo ... NFAbuilder.s
-	@echo ... NFAparser.obj
-	@echo ... NFAparser.i
-	@echo ... NFAparser.s
-	@echo ... graph.obj
-	@echo ... graph.i
-	@echo ... graph.s
-	@echo ... parser.obj
-	@echo ... parser.i
-	@echo ... parser.s
+	@echo ... NFA/NFAbuilder.obj
+	@echo ... NFA/NFAbuilder.i
+	@echo ... NFA/NFAbuilder.s
+	@echo ... NFA/NFAparser.obj
+	@echo ... NFA/NFAparser.i
+	@echo ... NFA/NFAparser.s
+	@echo ... NFA/graph.obj
+	@echo ... NFA/graph.i
+	@echo ... NFA/graph.s
+	@echo ... parser/parser.obj
+	@echo ... parser/parser.i
+	@echo ... parser/parser.s
 .PHONY : help
 
 
