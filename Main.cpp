@@ -3,9 +3,11 @@
 //
 
 
-#include "DFAminimizer/DFAminimizer.h"
+#include "printer.h"
 
 using namespace std;
 int main() {
-    DFAminimizer df("C:\\Users\\magdy\\CLionProjects\\Compiler\\test.txt");
+     Printer p ("C:\\Users\\magdy\\CLionProjects\\Compiler\\input.txt"
+                 ,"C:\\Users\\magdy\\CLionProjects\\Compiler\\test.txt");
+     p.__init__();
 }

@@ -122,6 +122,9 @@
 		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/parser/regex_parser.h">
 			<Option target="Compiler"/>
 		</Unit>
+		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/printer.cpp">
+			<Option target="Compiler"/>
+		</Unit>
 		<Unit filename="C:/Users/magdy/CLionProjects/Compiler/printer.h">
 			<Option target="Compiler"/>
 		</Unit>

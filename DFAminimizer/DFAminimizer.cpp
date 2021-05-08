@@ -148,3 +148,11 @@ void DFAminimizer::print_DFA_table() {
         }
     }
 }
+
+
+DFAstate* DFAminimizer::get_start_minimized_gragh(){
+    return start_minimized_gragh;
+};
+vector<DFAstate*> DFAminimizer::get_minimized_states(){
+    return minimized_states;
+};

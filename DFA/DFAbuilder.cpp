@@ -124,6 +124,7 @@ unordered_set<State*> BFS(State* state, char edge_weight) {
 }
 
 bool validate_equlaity(DFAstate* old_state, DFAstate* new_state) {
+    if(old_state->nfa_replacement_states.size() != new_state->nfa_replacement_states.size()) return true;
     set<State*> comparator(old_state->nfa_replacement_states.begin(), old_state->nfa_replacement_states.end());
     comparator.insert(new_state->nfa_replacement_states.begin(), new_state->nfa_replacement_states.end());
     return comparator.size() > old_state->nfa_replacement_states.size();

@@ -118,8 +118,8 @@ Graph* create_graph(string str){
     else{
         Graph* gh = initiate_graph();
         // a-z A-Z 0-9
-        if(str.length() == 3 && str.at(1) == '-'){
-            for(char ch = str.at(0) ; ch <= str.at(2) ; ch++){
+        if(regex_match(str,regex("[a-zA-Z0-9]\\s*-\\s*[a-zA-Z0-9]"))){
+            for(char ch = str.at(0) ; ch <= str.at(str.length()-1) ; ch++){
                 State* st = new State();
                 gh->start_state->children.insert(make_pair(ch,st));
                 st->children.insert(make_pair(eps,gh->end_state));

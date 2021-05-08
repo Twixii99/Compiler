@@ -20,6 +20,7 @@ CMakeFiles/Compiler.dir/Main.cpp.obj: ../Main.cpp
 CMakeFiles/Compiler.dir/Main.cpp.obj: ../NFA/NFAbuilder.h
 CMakeFiles/Compiler.dir/Main.cpp.obj: ../NFA/graph.h
 CMakeFiles/Compiler.dir/Main.cpp.obj: ../parser/parser.h
+CMakeFiles/Compiler.dir/Main.cpp.obj: ../printer.h
 
 CMakeFiles/Compiler.dir/NFA/NFAbuilder.cpp.obj: ../NFA/NFAbuilder.cpp
 CMakeFiles/Compiler.dir/NFA/NFAbuilder.cpp.obj: ../NFA/NFAbuilder.h
@@ -41,4 +42,12 @@ CMakeFiles/Compiler.dir/NFA/graph.cpp.obj: ../parser/parser.h
 CMakeFiles/Compiler.dir/parser/parser.cpp.obj: ../parser/parser.cpp
 CMakeFiles/Compiler.dir/parser/parser.cpp.obj: ../parser/parser.h
 CMakeFiles/Compiler.dir/parser/parser.cpp.obj: ../parser/regex_parser.h
+
+CMakeFiles/Compiler.dir/printer.cpp.obj: ../DFA/DFAbuilder.h
+CMakeFiles/Compiler.dir/printer.cpp.obj: ../DFAminimizer/DFAminimizer.h
+CMakeFiles/Compiler.dir/printer.cpp.obj: ../NFA/NFAbuilder.h
+CMakeFiles/Compiler.dir/printer.cpp.obj: ../NFA/graph.h
+CMakeFiles/Compiler.dir/printer.cpp.obj: ../parser/parser.h
+CMakeFiles/Compiler.dir/printer.cpp.obj: ../printer.cpp
+CMakeFiles/Compiler.dir/printer.cpp.obj: ../printer.h
 

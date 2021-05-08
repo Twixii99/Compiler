@@ -47,7 +47,6 @@ map<label,vector<state>>  non -> vector
  **/
 
 class DFAminimizer {
-
     DFAbuilder* dfAbuilder;
     DFAstate* start_DFA_graph;
     vector<DFAstate*> DFA_states;

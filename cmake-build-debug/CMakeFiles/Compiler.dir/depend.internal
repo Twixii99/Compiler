@@ -21,6 +21,7 @@ CMakeFiles/Compiler.dir/Main.cpp.obj
  C:/Users/magdy/CLionProjects/Compiler/NFA/NFAbuilder.h
  C:/Users/magdy/CLionProjects/Compiler/NFA/graph.h
  C:/Users/magdy/CLionProjects/Compiler/parser/parser.h
+ C:/Users/magdy/CLionProjects/Compiler/printer.h
 CMakeFiles/Compiler.dir/NFA/NFAbuilder.cpp.obj
  C:/Users/magdy/CLionProjects/Compiler/NFA/NFAbuilder.cpp
  C:/Users/magdy/CLionProjects/Compiler/NFA/NFAbuilder.h
@@ -42,3 +43,11 @@ CMakeFiles/Compiler.dir/parser/parser.cpp.obj
  C:/Users/magdy/CLionProjects/Compiler/parser/parser.cpp
  C:/Users/magdy/CLionProjects/Compiler/parser/parser.h
  C:/Users/magdy/CLionProjects/Compiler/parser/regex_parser.h
+CMakeFiles/Compiler.dir/printer.cpp.obj
+ C:/Users/magdy/CLionProjects/Compiler/DFA/DFAbuilder.h
+ C:/Users/magdy/CLionProjects/Compiler/DFAminimizer/DFAminimizer.h
+ C:/Users/magdy/CLionProjects/Compiler/NFA/NFAbuilder.h
+ C:/Users/magdy/CLionProjects/Compiler/NFA/graph.h
+ C:/Users/magdy/CLionProjects/Compiler/parser/parser.h
+ C:/Users/magdy/CLionProjects/Compiler/printer.cpp
+ C:/Users/magdy/CLionProjects/Compiler/printer.h

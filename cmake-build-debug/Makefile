@@ -331,6 +331,33 @@ parser/parser.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/parser/parser.cpp.s
 .PHONY : parser/parser.cpp.s
 
+printer.obj: printer.cpp.obj
+
+.PHONY : printer.obj
+
+# target to build an object file
+printer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/printer.cpp.obj
+.PHONY : printer.cpp.obj
+
+printer.i: printer.cpp.i
+
+.PHONY : printer.i
+
+# target to preprocess a source file
+printer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/printer.cpp.i
+.PHONY : printer.cpp.i
+
+printer.s: printer.cpp.s
+
+.PHONY : printer.s
+
+# target to generate assembly for a file
+printer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Compiler.dir\build.make CMakeFiles/Compiler.dir/printer.cpp.s
+.PHONY : printer.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -361,6 +388,9 @@ help:
 	@echo ... parser/parser.obj
 	@echo ... parser/parser.i
 	@echo ... parser/parser.s
+	@echo ... printer.obj
+	@echo ... printer.i
+	@echo ... printer.s
 .PHONY : help
 
 

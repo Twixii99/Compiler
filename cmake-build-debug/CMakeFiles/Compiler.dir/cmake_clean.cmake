@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Compiler.dir/NFA/NFAparser.cpp.obj"
   "CMakeFiles/Compiler.dir/NFA/graph.cpp.obj"
   "CMakeFiles/Compiler.dir/parser/parser.cpp.obj"
+  "CMakeFiles/Compiler.dir/printer.cpp.obj"
   "Compiler.exe"
   "Compiler.exe.manifest"
   "Compiler.pdb"

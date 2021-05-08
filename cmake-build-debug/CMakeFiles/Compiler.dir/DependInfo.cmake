@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/magdy/CLionProjects/Compiler/NFA/NFAparser.cpp" "C:/Users/magdy/CLionProjects/Compiler/cmake-build-debug/CMakeFiles/Compiler.dir/NFA/NFAparser.cpp.obj"
   "C:/Users/magdy/CLionProjects/Compiler/NFA/graph.cpp" "C:/Users/magdy/CLionProjects/Compiler/cmake-build-debug/CMakeFiles/Compiler.dir/NFA/graph.cpp.obj"
   "C:/Users/magdy/CLionProjects/Compiler/parser/parser.cpp" "C:/Users/magdy/CLionProjects/Compiler/cmake-build-debug/CMakeFiles/Compiler.dir/parser/parser.cpp.obj"
+  "C:/Users/magdy/CLionProjects/Compiler/printer.cpp" "C:/Users/magdy/CLionProjects/Compiler/cmake-build-debug/CMakeFiles/Compiler.dir/printer.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

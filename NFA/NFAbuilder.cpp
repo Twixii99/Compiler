@@ -16,6 +16,7 @@ void create_NFA(pair<string,pair<string,bool>> pair){
     if(is_exp){
         NFA_start->children.insert(make_pair(eps,g->start_state));
         unordered_set<State*> set;
+        if(label.at(0) == '\\')label.erase(0,1);
         g->end_state->label = label;
         g->end_state->final = true;
         if(label == exp)
