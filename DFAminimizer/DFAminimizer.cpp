@@ -5,13 +5,14 @@
 
 
 #include "DFAminimizer.h"
-
-
+#include "iomanip"
+set<char> transitions;
 
 void DFAminimizer::minimize(){
     vector<vector<DFAstate*>> states_vector;
     vector<DFAstate*> non_final;
     vector<DFAstate*> final;
+
 
     for(DFAstate* state : DFAminimizer::dfAbuilder->get_all_created_states()){
         if(state->is_acceptance_state)
@@ -79,10 +80,10 @@ void DFAminimizer::create_graph(vector<vector<DFAstate*>> states_vector){
 
     start_minimized_gragh = new_states[start_index];
     minimized_states = new_states;
+//    print_DFA_table();
 }
 
 bool is_equivalent(DFAstate* s1 , DFAstate* s2){
-    //cout << "is quivalent" << s1->name_of_state << " " << s2->name_of_state;
     if(s1->childrean.size() != s2->childrean.size())
         return false;
 
@@ -102,31 +103,31 @@ bool is_equivalent(DFAstate* s1 , DFAstate* s2){
 
 
 vector<vector<DFAstate*>> partition(vector<DFAstate*> v){
- vector<vector<DFAstate*>> sub_vectors;
- vector<DFAstate*> first_vector;
- first_vector.push_back(v[0]);
- sub_vectors.push_back(first_vector);
+    vector<vector<DFAstate*>> sub_vectors;
+    vector<DFAstate*> first_vector;
+    first_vector.push_back(v[0]);
+    sub_vectors.push_back(first_vector);
 
 
- bool new_partition;
- for(int i=1 ; i<v.size() ; i++){
-     new_partition = true;
+    bool new_partition;
+    for(int i=1 ; i<v.size() ; i++){
+        new_partition = true;
 
-     DFAstate* state = v[i];
-     for(vector<DFAstate*> &sv : sub_vectors){
-         if(is_equivalent(state,sv[0])) {
-             sv.push_back(state);
-             new_partition = false;
-             break;
-         }
-     }
+        DFAstate* state = v[i];
+        for(vector<DFAstate*> &sv : sub_vectors){
+            if(is_equivalent(state,sv[0])) {
+                sv.push_back(state);
+                new_partition = false;
+                break;
+            }
+        }
 
-     if(new_partition){
-         vector<DFAstate*> sv;
-         sv.push_back(state);
-         sub_vectors.push_back(sv);
-     }
- }
+        if(new_partition){
+            vector<DFAstate*> sv;
+            sv.push_back(state);
+            sub_vectors.push_back(sv);
+        }
+    }
     return sub_vectors;
 };
 void update_indexes(vector<vector<DFAstate*>> v){
@@ -139,14 +140,38 @@ void update_indexes(vector<vector<DFAstate*>> v){
     }
 }
 
-void DFAminimizer::print_DFA_table() {
+void get_transitions(vector<DFAstate*> minimized_states) {
+
     for (int i = 0; i < minimized_states.size(); i++) {
-        cout << "state#" << i << endl;
-        cout << "children are:" << endl;
         for (auto child : minimized_states[i]->childrean) {
-            cout << child.first << "->" << "state#" << child.second->index << endl;
+            transitions.insert(child.first);
         }
     }
+}
+
+void DFAminimizer::print_DFA_table(string table_file_name) {
+
+    ofstream table_file(table_file_name);
+    if(!table_file.is_open())
+        return;
+
+    get_transitions(minimized_states);
+    table_file << setw(20) << left << "input";
+    for(char ch : transitions){
+        table_file << setw(4) << ch;
+    }
+    table_file << endl;
+    for (int i = 0; i < minimized_states.size(); i++) {
+        DFAstate* state = minimized_states[i];
+        table_file << setw(20) << left << "state#" + to_string(i) + " " + ((state->is_acceptance_state) ?  state->acceptance_expression : "Non final");
+        for (auto ch : transitions) {
+            if(state->childrean.find(ch) ==  state->childrean.end())
+                table_file << setw(4) <<  "-";
+            else table_file << setw(4) <<  to_string(state->childrean.find(ch)->second->index);
+        }
+        table_file << endl;
+    }
+
 }
 
 

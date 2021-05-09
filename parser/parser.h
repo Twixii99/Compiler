@@ -33,6 +33,7 @@ digit digit
 #include <iterator>
 #include <iostream>
 #include <vector>
+#include <sstream>
 
 using namespace std;
 

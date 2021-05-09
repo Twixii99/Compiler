@@ -35,11 +35,20 @@ using namespace std;
 
 class DFAstate {
 public:
+    DFAstate(bool isAcceptanceState, const string &acceptanceExpression);
+
+public:
     bool is_acceptance_state;
     string acceptance_expression;
     set<State*> nfa_replacement_states;
     unordered_map<char, DFAstate*> childrean;
     int index;
+
+    DFAstate() {
+        this->is_acceptance_state = false;
+        this->acceptance_expression = "";
+    }
+
 };
 
 class DFAbuilder {

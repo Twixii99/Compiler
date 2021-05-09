@@ -1,6 +1,3 @@
-//
-// Created by magdy on 5/4/2021.
-//
 #include "graph.h"
 #include <unordered_set>
 #include <unordered_map>
@@ -109,8 +106,6 @@ void print_all_states(State* s) {
     print_state(s,st);
 }
 
-
-
 Graph* create_graph(string str){
     if(mp.find(str) != mp.end() || mp.find(" " + str + " ") != mp.end()){
         return mp.find(str)->second;
@@ -118,8 +113,8 @@ Graph* create_graph(string str){
     else{
         Graph* gh = initiate_graph();
         // a-z A-Z 0-9
-        if(regex_match(str,regex("[a-zA-Z0-9]\\s*-\\s*[a-zA-Z0-9]"))){
-            for(char ch = str.at(0) ; ch <= str.at(str.length()-1) ; ch++){
+        if(str.length() == 3 && str.at(1) == '-'){
+            for(char ch = str.at(0) ; ch <= str.at(2) ; ch++){
                 State* st = new State();
                 gh->start_state->children.insert(make_pair(ch,st));
                 st->children.insert(make_pair(eps,gh->end_state));
@@ -147,8 +142,6 @@ Graph* create_graph(string str){
         return gh;
     }
 }
-
-
 
 void build_bracket_graph(string &str,int start,int end){
     string brackets =  "#"+std::to_string(cnt) ; // #1 #2

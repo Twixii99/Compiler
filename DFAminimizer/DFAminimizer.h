@@ -1,9 +1,3 @@
-//
-// Created by Kamal on 06/05/2021.
-//
-
-
-
 #ifndef TRYING_DFAMINIMIZER_H
 #define TRYING_DFAMINIMIZER_H
 
@@ -53,7 +47,6 @@ class DFAminimizer {
     DFAstate* start_minimized_gragh;
     vector<DFAstate*> minimized_states;
     void create_graph(vector<vector<DFAstate*>> states_vector);
-    void print_DFA_table();
 
 public:
     DFAminimizer(string filename) {
@@ -63,6 +56,7 @@ public:
     }
 
     void minimize();
+    void print_DFA_table(string);
     DFAstate* get_start_minimized_gragh();
     vector<DFAstate*> get_minimized_states();
 };

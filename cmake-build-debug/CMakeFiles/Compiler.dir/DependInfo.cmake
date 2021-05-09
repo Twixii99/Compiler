@@ -4,16 +4,16 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/magdy/CLionProjects/Compiler/DFA/DFAbuilder.cpp" "C:/Users/magdy/CLionProjects/Compiler/cmake-build-debug/CMakeFiles/Compiler.dir/DFA/DFAbuilder.cpp.obj"
-  "C:/Users/magdy/CLionProjects/Compiler/DFAminimizer/DFAminimizer.cpp" "C:/Users/magdy/CLionProjects/Compiler/cmake-build-debug/CMakeFiles/Compiler.dir/DFAminimizer/DFAminimizer.cpp.obj"
-  "C:/Users/magdy/CLionProjects/Compiler/Main.cpp" "C:/Users/magdy/CLionProjects/Compiler/cmake-build-debug/CMakeFiles/Compiler.dir/Main.cpp.obj"
-  "C:/Users/magdy/CLionProjects/Compiler/NFA/NFAbuilder.cpp" "C:/Users/magdy/CLionProjects/Compiler/cmake-build-debug/CMakeFiles/Compiler.dir/NFA/NFAbuilder.cpp.obj"
-  "C:/Users/magdy/CLionProjects/Compiler/NFA/NFAparser.cpp" "C:/Users/magdy/CLionProjects/Compiler/cmake-build-debug/CMakeFiles/Compiler.dir/NFA/NFAparser.cpp.obj"
-  "C:/Users/magdy/CLionProjects/Compiler/NFA/graph.cpp" "C:/Users/magdy/CLionProjects/Compiler/cmake-build-debug/CMakeFiles/Compiler.dir/NFA/graph.cpp.obj"
-  "C:/Users/magdy/CLionProjects/Compiler/parser/parser.cpp" "C:/Users/magdy/CLionProjects/Compiler/cmake-build-debug/CMakeFiles/Compiler.dir/parser/parser.cpp.obj"
-  "C:/Users/magdy/CLionProjects/Compiler/printer.cpp" "C:/Users/magdy/CLionProjects/Compiler/cmake-build-debug/CMakeFiles/Compiler.dir/printer.cpp.obj"
+  "/Users/Kamal/CLionProjects/Compiler/DFA/DFAbuilder.cpp" "/Users/Kamal/CLionProjects/Compiler/cmake-build-debug/CMakeFiles/Compiler.dir/DFA/DFAbuilder.cpp.o"
+  "/Users/Kamal/CLionProjects/Compiler/DFAminimizer/DFAminimizer.cpp" "/Users/Kamal/CLionProjects/Compiler/cmake-build-debug/CMakeFiles/Compiler.dir/DFAminimizer/DFAminimizer.cpp.o"
+  "/Users/Kamal/CLionProjects/Compiler/Main.cpp" "/Users/Kamal/CLionProjects/Compiler/cmake-build-debug/CMakeFiles/Compiler.dir/Main.cpp.o"
+  "/Users/Kamal/CLionProjects/Compiler/NFA/NFAbuilder.cpp" "/Users/Kamal/CLionProjects/Compiler/cmake-build-debug/CMakeFiles/Compiler.dir/NFA/NFAbuilder.cpp.o"
+  "/Users/Kamal/CLionProjects/Compiler/NFA/NFAparser.cpp" "/Users/Kamal/CLionProjects/Compiler/cmake-build-debug/CMakeFiles/Compiler.dir/NFA/NFAparser.cpp.o"
+  "/Users/Kamal/CLionProjects/Compiler/NFA/graph.cpp" "/Users/Kamal/CLionProjects/Compiler/cmake-build-debug/CMakeFiles/Compiler.dir/NFA/graph.cpp.o"
+  "/Users/Kamal/CLionProjects/Compiler/parser/parser.cpp" "/Users/Kamal/CLionProjects/Compiler/cmake-build-debug/CMakeFiles/Compiler.dir/parser/parser.cpp.o"
+  "/Users/Kamal/CLionProjects/Compiler/printer.cpp" "/Users/Kamal/CLionProjects/Compiler/cmake-build-debug/CMakeFiles/Compiler.dir/printer.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH

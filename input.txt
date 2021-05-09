@@ -1,8 +1,5 @@
-int sum,count,mnt;
-int 7sum;
-if
-(pass!=10)
-{pass=pass-1;}
-else{
-sum=sm-10;
+int sum , count , pass , mnt;
+while (pass != 10)
+{
+pass = pass + 1 ;
 }

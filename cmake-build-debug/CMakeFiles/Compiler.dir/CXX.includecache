@@ -6,7 +6,37 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/magdy/CLionProjects/Compiler/NFA/NFAbuilder.h
+/Users/Kamal/CLionProjects/Compiler/DFA/DFAbuilder.h
+string
+-
+vector
+-
+unordered_map
+-
+unordered_set
+-
+map
+-
+iostream
+-
+queue
+-
+set
+-
+../NFA/NFAbuilder.h
+/Users/Kamal/CLionProjects/Compiler/NFA/NFAbuilder.h
+
+/Users/Kamal/CLionProjects/Compiler/DFAminimizer/DFAminimizer.cpp
+DFAminimizer.h
+/Users/Kamal/CLionProjects/Compiler/DFAminimizer/DFAminimizer.h
+iomanip
+/Users/Kamal/CLionProjects/Compiler/DFAminimizer/iomanip
+
+/Users/Kamal/CLionProjects/Compiler/DFAminimizer/DFAminimizer.h
+../DFA/DFAbuilder.h
+/Users/Kamal/CLionProjects/Compiler/DFA/DFAbuilder.h
+
+/Users/Kamal/CLionProjects/Compiler/NFA/NFAbuilder.h
 map
 -
 string
@@ -18,21 +48,11 @@ unordered_set
 iostream
 -
 ../parser/parser.h
-C:/Users/magdy/CLionProjects/Compiler/parser/parser.h
+/Users/Kamal/CLionProjects/Compiler/parser/parser.h
 graph.h
-C:/Users/magdy/CLionProjects/Compiler/NFA/graph.h
+/Users/Kamal/CLionProjects/Compiler/NFA/graph.h
 
-C:/Users/magdy/CLionProjects/Compiler/NFA/graph.cpp
-graph.h
-C:/Users/magdy/CLionProjects/Compiler/NFA/graph.h
-unordered_set
--
-unordered_map
--
-NFAbuilder.h
-C:/Users/magdy/CLionProjects/Compiler/NFA/NFAbuilder.h
-
-C:/Users/magdy/CLionProjects/Compiler/NFA/graph.h
+/Users/Kamal/CLionProjects/Compiler/NFA/graph.h
 string
 -
 iostream
@@ -42,7 +62,7 @@ map
 unordered_map
 -
 
-C:/Users/magdy/CLionProjects/Compiler/parser/parser.h
+/Users/Kamal/CLionProjects/Compiler/parser/parser.h
 fstream
 -
 string
@@ -56,5 +76,7 @@ iterator
 iostream
 -
 vector
+-
+sstream
 -
 

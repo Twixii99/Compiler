@@ -1,8 +1,3 @@
-
-//
-// Created by magdy on 5/1/2021.
-//
-
 #ifndef COMPILER_PRINTER_H
 #define COMPILER_PRINTER_H
 
@@ -17,20 +12,20 @@ class Printer {
 
     bool is_a_final_detected;
 
-    string grammer_file, input_file;
+    string grammer_file, input_file, output_file, table_file_name;
 
     ifstream input;
+    ofstream output;
 
     DFAstate* move(char, DFAstate*);
 
     void controller();
-//    void controller2();
     bool check(DFAstate* s);
+    void print_errors();
 
 public:
     void __init__();
-    Printer(string, string);
-    Printer(DFAstate*);
+    Printer(string, string, string, string);
 };
 
 string upgrade_string(DFAstate*, string);
