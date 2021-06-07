@@ -113,6 +113,12 @@
 		<Unit filename="/Users/Kamal/CLionProjects/Compiler/NFA/graph.h">
 			<Option target="Compiler"/>
 		</Unit>
+		<Unit filename="/Users/Kamal/CLionProjects/Compiler/intialize/initialization.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/Kamal/CLionProjects/Compiler/intialize/initialization.h">
+			<Option target="Compiler"/>
+		</Unit>
 		<Unit filename="/Users/Kamal/CLionProjects/Compiler/parser/parser.cpp">
 			<Option target="Compiler"/>
 		</Unit>
@@ -122,10 +128,28 @@
 		<Unit filename="/Users/Kamal/CLionProjects/Compiler/parser/regex_parser.h">
 			<Option target="Compiler"/>
 		</Unit>
-		<Unit filename="/Users/Kamal/CLionProjects/Compiler/printer.cpp">
+		<Unit filename="/Users/Kamal/CLionProjects/Compiler/phase2/outputGenerator.cpp">
 			<Option target="Compiler"/>
 		</Unit>
-		<Unit filename="/Users/Kamal/CLionProjects/Compiler/printer.h">
+		<Unit filename="/Users/Kamal/CLionProjects/Compiler/phase2/outputGenerator.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/Kamal/CLionProjects/Compiler/phase2/tableBuilder.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/Kamal/CLionProjects/Compiler/phase2/tableBuilder.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/Kamal/CLionProjects/Compiler/printer_phase2/parser_interface.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/Kamal/CLionProjects/Compiler/printer_phase2/parser_interface.h">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/Kamal/CLionProjects/Compiler/printer_phase2/printer.cpp">
+			<Option target="Compiler"/>
+		</Unit>
+		<Unit filename="/Users/Kamal/CLionProjects/Compiler/printer_phase2/printer.h">
 			<Option target="Compiler"/>
 		</Unit>
 		<Unit filename="/Users/Kamal/CLionProjects/Compiler/CMakeLists.txt">

@@ -19,8 +19,12 @@ CMakeFiles/Compiler.dir/Main.cpp.o: ../DFAminimizer/DFAminimizer.h
 CMakeFiles/Compiler.dir/Main.cpp.o: ../Main.cpp
 CMakeFiles/Compiler.dir/Main.cpp.o: ../NFA/NFAbuilder.h
 CMakeFiles/Compiler.dir/Main.cpp.o: ../NFA/graph.h
+CMakeFiles/Compiler.dir/Main.cpp.o: ../intialize/initialization.h
 CMakeFiles/Compiler.dir/Main.cpp.o: ../parser/parser.h
-CMakeFiles/Compiler.dir/Main.cpp.o: ../printer.h
+CMakeFiles/Compiler.dir/Main.cpp.o: ../phase2/outputGenerator.h
+CMakeFiles/Compiler.dir/Main.cpp.o: ../phase2/tableBuilder.h
+CMakeFiles/Compiler.dir/Main.cpp.o: ../printer_phase2/parser_interface.h
+CMakeFiles/Compiler.dir/Main.cpp.o: ../printer_phase2/printer.h
 
 CMakeFiles/Compiler.dir/NFA/NFAbuilder.cpp.o: ../NFA/NFAbuilder.cpp
 CMakeFiles/Compiler.dir/NFA/NFAbuilder.cpp.o: ../NFA/NFAbuilder.h
@@ -39,15 +43,50 @@ CMakeFiles/Compiler.dir/NFA/graph.cpp.o: ../NFA/graph.cpp
 CMakeFiles/Compiler.dir/NFA/graph.cpp.o: ../NFA/graph.h
 CMakeFiles/Compiler.dir/NFA/graph.cpp.o: ../parser/parser.h
 
+CMakeFiles/Compiler.dir/intialize/initialization.cpp.o: ../DFA/DFAbuilder.h
+CMakeFiles/Compiler.dir/intialize/initialization.cpp.o: ../DFAminimizer/DFAminimizer.h
+CMakeFiles/Compiler.dir/intialize/initialization.cpp.o: ../NFA/NFAbuilder.h
+CMakeFiles/Compiler.dir/intialize/initialization.cpp.o: ../NFA/graph.h
+CMakeFiles/Compiler.dir/intialize/initialization.cpp.o: ../intialize/initialization.cpp
+CMakeFiles/Compiler.dir/intialize/initialization.cpp.o: ../intialize/initialization.h
+CMakeFiles/Compiler.dir/intialize/initialization.cpp.o: ../parser/parser.h
+CMakeFiles/Compiler.dir/intialize/initialization.cpp.o: ../phase2/outputGenerator.h
+CMakeFiles/Compiler.dir/intialize/initialization.cpp.o: ../phase2/tableBuilder.h
+CMakeFiles/Compiler.dir/intialize/initialization.cpp.o: ../printer_phase2/parser_interface.h
+CMakeFiles/Compiler.dir/intialize/initialization.cpp.o: ../printer_phase2/printer.h
+
 CMakeFiles/Compiler.dir/parser/parser.cpp.o: ../parser/parser.cpp
 CMakeFiles/Compiler.dir/parser/parser.cpp.o: ../parser/parser.h
 CMakeFiles/Compiler.dir/parser/parser.cpp.o: ../parser/regex_parser.h
 
-CMakeFiles/Compiler.dir/printer.cpp.o: ../DFA/DFAbuilder.h
-CMakeFiles/Compiler.dir/printer.cpp.o: ../DFAminimizer/DFAminimizer.h
-CMakeFiles/Compiler.dir/printer.cpp.o: ../NFA/NFAbuilder.h
-CMakeFiles/Compiler.dir/printer.cpp.o: ../NFA/graph.h
-CMakeFiles/Compiler.dir/printer.cpp.o: ../parser/parser.h
-CMakeFiles/Compiler.dir/printer.cpp.o: ../printer.cpp
-CMakeFiles/Compiler.dir/printer.cpp.o: ../printer.h
+CMakeFiles/Compiler.dir/phase2/outputGenerator.cpp.o: ../DFA/DFAbuilder.h
+CMakeFiles/Compiler.dir/phase2/outputGenerator.cpp.o: ../DFAminimizer/DFAminimizer.h
+CMakeFiles/Compiler.dir/phase2/outputGenerator.cpp.o: ../NFA/NFAbuilder.h
+CMakeFiles/Compiler.dir/phase2/outputGenerator.cpp.o: ../NFA/graph.h
+CMakeFiles/Compiler.dir/phase2/outputGenerator.cpp.o: ../parser/parser.h
+CMakeFiles/Compiler.dir/phase2/outputGenerator.cpp.o: ../phase2/outputGenerator.cpp
+CMakeFiles/Compiler.dir/phase2/outputGenerator.cpp.o: ../phase2/outputGenerator.h
+CMakeFiles/Compiler.dir/phase2/outputGenerator.cpp.o: ../phase2/tableBuilder.h
+CMakeFiles/Compiler.dir/phase2/outputGenerator.cpp.o: ../printer_phase2/parser_interface.h
+CMakeFiles/Compiler.dir/phase2/outputGenerator.cpp.o: ../printer_phase2/printer.h
+
+CMakeFiles/Compiler.dir/phase2/tableBuilder.cpp.o: ../phase2/tableBuilder.cpp
+CMakeFiles/Compiler.dir/phase2/tableBuilder.cpp.o: ../phase2/tableBuilder.h
+
+CMakeFiles/Compiler.dir/printer_phase2/parser_interface.cpp.o: ../DFA/DFAbuilder.h
+CMakeFiles/Compiler.dir/printer_phase2/parser_interface.cpp.o: ../DFAminimizer/DFAminimizer.h
+CMakeFiles/Compiler.dir/printer_phase2/parser_interface.cpp.o: ../NFA/NFAbuilder.h
+CMakeFiles/Compiler.dir/printer_phase2/parser_interface.cpp.o: ../NFA/graph.h
+CMakeFiles/Compiler.dir/printer_phase2/parser_interface.cpp.o: ../parser/parser.h
+CMakeFiles/Compiler.dir/printer_phase2/parser_interface.cpp.o: ../printer_phase2/parser_interface.cpp
+CMakeFiles/Compiler.dir/printer_phase2/parser_interface.cpp.o: ../printer_phase2/parser_interface.h
+CMakeFiles/Compiler.dir/printer_phase2/parser_interface.cpp.o: ../printer_phase2/printer.h
+
+CMakeFiles/Compiler.dir/printer_phase2/printer.cpp.o: ../DFA/DFAbuilder.h
+CMakeFiles/Compiler.dir/printer_phase2/printer.cpp.o: ../DFAminimizer/DFAminimizer.h
+CMakeFiles/Compiler.dir/printer_phase2/printer.cpp.o: ../NFA/NFAbuilder.h
+CMakeFiles/Compiler.dir/printer_phase2/printer.cpp.o: ../NFA/graph.h
+CMakeFiles/Compiler.dir/printer_phase2/printer.cpp.o: ../parser/parser.h
+CMakeFiles/Compiler.dir/printer_phase2/printer.cpp.o: ../printer_phase2/printer.cpp
+CMakeFiles/Compiler.dir/printer_phase2/printer.cpp.o: ../printer_phase2/printer.h
 

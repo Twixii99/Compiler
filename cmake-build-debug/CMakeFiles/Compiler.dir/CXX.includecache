@@ -26,15 +26,13 @@ set
 ../NFA/NFAbuilder.h
 /Users/Kamal/CLionProjects/Compiler/NFA/NFAbuilder.h
 
-/Users/Kamal/CLionProjects/Compiler/DFAminimizer/DFAminimizer.cpp
-DFAminimizer.h
 /Users/Kamal/CLionProjects/Compiler/DFAminimizer/DFAminimizer.h
-iomanip
-/Users/Kamal/CLionProjects/Compiler/DFAminimizer/iomanip
-
-/Users/Kamal/CLionProjects/Compiler/DFAminimizer/DFAminimizer.h
-../DFA/DFAbuilder.h
 /Users/Kamal/CLionProjects/Compiler/DFA/DFAbuilder.h
+-
+
+/Users/Kamal/CLionProjects/Compiler/Main.cpp
+intialize/initialization.h
+/Users/Kamal/CLionProjects/Compiler/intialize/initialization.h
 
 /Users/Kamal/CLionProjects/Compiler/NFA/NFAbuilder.h
 map
@@ -59,7 +57,15 @@ iostream
 -
 map
 -
-unordered_map
+
+/Users/Kamal/CLionProjects/Compiler/intialize/initialization.h
+../printer_phase2/parser_interface.h
+/Users/Kamal/CLionProjects/Compiler/printer_phase2/parser_interface.h
+../phase2/tableBuilder.h
+/Users/Kamal/CLionProjects/Compiler/phase2/tableBuilder.h
+../phase2/outputGenerator.h
+/Users/Kamal/CLionProjects/Compiler/phase2/outputGenerator.h
+iostream
 -
 
 /Users/Kamal/CLionProjects/Compiler/parser/parser.h
@@ -79,4 +85,26 @@ vector
 -
 sstream
 -
+
+/Users/Kamal/CLionProjects/Compiler/phase2/outputGenerator.h
+tableBuilder.h
+/Users/Kamal/CLionProjects/Compiler/phase2/tableBuilder.h
+../printer_phase2/parser_interface.h
+/Users/Kamal/CLionProjects/Compiler/printer_phase2/parser_interface.h
+
+/Users/Kamal/CLionProjects/Compiler/phase2/tableBuilder.h
+string
+-
+
+/Users/Kamal/CLionProjects/Compiler/printer_phase2/parser_interface.h
+string
+-
+fstream
+-
+printer.h
+/Users/Kamal/CLionProjects/Compiler/printer_phase2/printer.h
+
+/Users/Kamal/CLionProjects/Compiler/printer_phase2/printer.h
+../DFAminimizer/DFAminimizer.h
+/Users/Kamal/CLionProjects/Compiler/DFAminimizer/DFAminimizer.h
 

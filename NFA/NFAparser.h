@@ -6,7 +6,7 @@
 #define COMPILER_NFAPARSER_H
 #include "NFAbuilder.h"
 
-Graph* split(string s);
+Graph* split(string production);
 Graph* split_with_space(string s);
 void parentheses_check(string &str);
 #endif //COMPILER_NFAPARSER_H

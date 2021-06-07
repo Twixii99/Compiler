@@ -1,7 +1,7 @@
 #ifndef COMPILER_PRINTER_H
 #define COMPILER_PRINTER_H
 
-#include "DFAminimizer/DFAminimizer.h"
+#include "../DFAminimizer/DFAminimizer.h"
 
 using namespace std;
 
@@ -24,7 +24,7 @@ class Printer {
     void print_errors();
 
 public:
-    void __init__();
+    void __init__(D);
     Printer(string, string, string, string);
 };
 

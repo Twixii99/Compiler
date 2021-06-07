@@ -20,8 +20,12 @@ CMakeFiles/Compiler.dir/Main.cpp.o
  /Users/Kamal/CLionProjects/Compiler/Main.cpp
  /Users/Kamal/CLionProjects/Compiler/NFA/NFAbuilder.h
  /Users/Kamal/CLionProjects/Compiler/NFA/graph.h
+ /Users/Kamal/CLionProjects/Compiler/intialize/initialization.h
  /Users/Kamal/CLionProjects/Compiler/parser/parser.h
- /Users/Kamal/CLionProjects/Compiler/printer.h
+ /Users/Kamal/CLionProjects/Compiler/phase2/outputGenerator.h
+ /Users/Kamal/CLionProjects/Compiler/phase2/tableBuilder.h
+ /Users/Kamal/CLionProjects/Compiler/printer_phase2/parser_interface.h
+ /Users/Kamal/CLionProjects/Compiler/printer_phase2/printer.h
 CMakeFiles/Compiler.dir/NFA/NFAbuilder.cpp.o
  /Users/Kamal/CLionProjects/Compiler/NFA/NFAbuilder.cpp
  /Users/Kamal/CLionProjects/Compiler/NFA/NFAbuilder.h
@@ -39,15 +43,50 @@ CMakeFiles/Compiler.dir/NFA/graph.cpp.o
  /Users/Kamal/CLionProjects/Compiler/NFA/graph.cpp
  /Users/Kamal/CLionProjects/Compiler/NFA/graph.h
  /Users/Kamal/CLionProjects/Compiler/parser/parser.h
+CMakeFiles/Compiler.dir/intialize/initialization.cpp.o
+ /Users/Kamal/CLionProjects/Compiler/DFA/DFAbuilder.h
+ /Users/Kamal/CLionProjects/Compiler/DFAminimizer/DFAminimizer.h
+ /Users/Kamal/CLionProjects/Compiler/NFA/NFAbuilder.h
+ /Users/Kamal/CLionProjects/Compiler/NFA/graph.h
+ /Users/Kamal/CLionProjects/Compiler/intialize/initialization.cpp
+ /Users/Kamal/CLionProjects/Compiler/intialize/initialization.h
+ /Users/Kamal/CLionProjects/Compiler/parser/parser.h
+ /Users/Kamal/CLionProjects/Compiler/phase2/outputGenerator.h
+ /Users/Kamal/CLionProjects/Compiler/phase2/tableBuilder.h
+ /Users/Kamal/CLionProjects/Compiler/printer_phase2/parser_interface.h
+ /Users/Kamal/CLionProjects/Compiler/printer_phase2/printer.h
 CMakeFiles/Compiler.dir/parser/parser.cpp.o
  /Users/Kamal/CLionProjects/Compiler/parser/parser.cpp
  /Users/Kamal/CLionProjects/Compiler/parser/parser.h
  /Users/Kamal/CLionProjects/Compiler/parser/regex_parser.h
-CMakeFiles/Compiler.dir/printer.cpp.o
+CMakeFiles/Compiler.dir/phase2/outputGenerator.cpp.o
  /Users/Kamal/CLionProjects/Compiler/DFA/DFAbuilder.h
  /Users/Kamal/CLionProjects/Compiler/DFAminimizer/DFAminimizer.h
  /Users/Kamal/CLionProjects/Compiler/NFA/NFAbuilder.h
  /Users/Kamal/CLionProjects/Compiler/NFA/graph.h
  /Users/Kamal/CLionProjects/Compiler/parser/parser.h
- /Users/Kamal/CLionProjects/Compiler/printer.cpp
- /Users/Kamal/CLionProjects/Compiler/printer.h
+ /Users/Kamal/CLionProjects/Compiler/phase2/outputGenerator.cpp
+ /Users/Kamal/CLionProjects/Compiler/phase2/outputGenerator.h
+ /Users/Kamal/CLionProjects/Compiler/phase2/tableBuilder.h
+ /Users/Kamal/CLionProjects/Compiler/printer_phase2/parser_interface.h
+ /Users/Kamal/CLionProjects/Compiler/printer_phase2/printer.h
+CMakeFiles/Compiler.dir/phase2/tableBuilder.cpp.o
+ /Users/Kamal/CLionProjects/Compiler/phase2/tableBuilder.cpp
+ /Users/Kamal/CLionProjects/Compiler/phase2/tableBuilder.h
+CMakeFiles/Compiler.dir/printer_phase2/parser_interface.cpp.o
+ /Users/Kamal/CLionProjects/Compiler/DFA/DFAbuilder.h
+ /Users/Kamal/CLionProjects/Compiler/DFAminimizer/DFAminimizer.h
+ /Users/Kamal/CLionProjects/Compiler/NFA/NFAbuilder.h
+ /Users/Kamal/CLionProjects/Compiler/NFA/graph.h
+ /Users/Kamal/CLionProjects/Compiler/parser/parser.h
+ /Users/Kamal/CLionProjects/Compiler/printer_phase2/parser_interface.cpp
+ /Users/Kamal/CLionProjects/Compiler/printer_phase2/parser_interface.h
+ /Users/Kamal/CLionProjects/Compiler/printer_phase2/printer.h
+CMakeFiles/Compiler.dir/printer_phase2/printer.cpp.o
+ /Users/Kamal/CLionProjects/Compiler/DFA/DFAbuilder.h
+ /Users/Kamal/CLionProjects/Compiler/DFAminimizer/DFAminimizer.h
+ /Users/Kamal/CLionProjects/Compiler/NFA/NFAbuilder.h
+ /Users/Kamal/CLionProjects/Compiler/NFA/graph.h
+ /Users/Kamal/CLionProjects/Compiler/parser/parser.h
+ /Users/Kamal/CLionProjects/Compiler/printer_phase2/printer.cpp
+ /Users/Kamal/CLionProjects/Compiler/printer_phase2/printer.h

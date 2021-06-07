@@ -25,8 +25,8 @@ void parentheses_check(string &str){
 }
 
 
-Graph* split(string s){
-    istringstream ss(s);
+Graph* split(string production){
+    istringstream ss(production);
     string word;
     Graph* gh = nullptr;
     while (getline(ss,word,'|')){

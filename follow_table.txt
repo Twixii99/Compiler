@@ -1,0 +1,51 @@
+SIGN ==> <(> ; <id> ; <num> ; 
+
+
+TERM ==> <)> ; <;> ; <addop> ; <relop> ; 
+
+
+SIMPLE_EXPRESSION ==> <)> ; <;> ; <relop> ; 
+
+
+FACTOR ==> <)> ; <;> ; <addop> ; <mulop> ; <relop> ; 
+
+
+ASSIGNMENT ==> <$> ; <float> ; <id> ; <if> ; <int> ; <while> ; <}> ; 
+
+
+WHILE ==> <$> ; <float> ; <id> ; <if> ; <int> ; <while> ; <}> ; 
+
+
+ANOTHER_TERM ==> <)> ; <;> ; <addop> ; <relop> ; 
+
+
+ANOTHER_STATEMENT ==> <$> ; 
+
+
+EXPRESSION2 ==> <)> ; <;> ; 
+
+
+IF ==> <$> ; <float> ; <id> ; <if> ; <int> ; <while> ; <}> ; 
+
+
+PRIMITIVE_TYPE ==> <id> ; 
+
+
+DECLARATION ==> <$> ; <float> ; <id> ; <if> ; <int> ; <while> ; <}> ; 
+
+
+STATEMENT ==> <$> ; <float> ; <id> ; <if> ; <int> ; <while> ; <}> ; 
+
+
+EXPRESSION ==> <)> ; <;> ; 
+
+
+STATEMENT_LIST ==> <$> ; 
+
+
+ANOTHER_EXPRESSION ==> <)> ; <;> ; <relop> ; 
+
+
+METHOD_BODY ==> <$> ; 
+
+

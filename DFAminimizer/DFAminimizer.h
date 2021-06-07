@@ -1,7 +1,7 @@
 #ifndef TRYING_DFAMINIMIZER_H
 #define TRYING_DFAMINIMIZER_H
 
-#include "../DFA/DFAbuilder.h"
+#include "/Users/Kamal/CLionProjects/Compiler/DFA/DFAbuilder.h"
 /**
 // A  b Z
 // B  a Z    b Z

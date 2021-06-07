@@ -1,0 +1,51 @@
+SIGN ==> < + , + > ;< ( , SYNC > ;< id , SYNC > ;< num , SYNC > ;< - , - > ;
+
+
+TERM ==> < ( , FACTOR ANOTHER_TERM > ;< id , FACTOR ANOTHER_TERM > ;< num , FACTOR ANOTHER_TERM > ;< relop , SYNC > ;< ) , SYNC > ;< ; , SYNC > ;< addop , SYNC > ;
+
+
+SIMPLE_EXPRESSION ==> < + , SIGN TERM ANOTHER_EXPRESSION > ;< ) , SYNC > ;< id , TERM ANOTHER_EXPRESSION > ;< ( , TERM ANOTHER_EXPRESSION > ;< num , TERM ANOTHER_EXPRESSION > ;< relop , SYNC > ;< - , SIGN TERM ANOTHER_EXPRESSION > ;< ; , SYNC > ;
+
+
+FACTOR ==> < ( , ( EXPRESSION ) > ;< id , id > ;< mulop , SYNC > ;< num , num > ;< relop , SYNC > ;< ) , SYNC > ;< ; , SYNC > ;< addop , SYNC > ;
+
+
+ASSIGNMENT ==> < id , id assign EXPRESSION ; > ;< $ , SYNC > ;< float , SYNC > ;< if , SYNC > ;< int , SYNC > ;< while , SYNC > ;< } , SYNC > ;
+
+
+WHILE ==> < while , while ( EXPRESSION ) { STATEMENT } > ;< int , SYNC > ;< id , SYNC > ;< $ , SYNC > ;< float , SYNC > ;< if , SYNC > ;< } , SYNC > ;
+
+
+ANOTHER_TERM ==> < mulop , mulop FACTOR ANOTHER_TERM > ;< ) , ~ > ;< ; , ~ > ;< addop , ~ > ;< relop , ~ > ;
+
+
+ANOTHER_STATEMENT ==> < float , STATEMENT ANOTHER_STATEMENT > ;< id , STATEMENT ANOTHER_STATEMENT > ;< if , STATEMENT ANOTHER_STATEMENT > ;< int , STATEMENT ANOTHER_STATEMENT > ;< while , STATEMENT ANOTHER_STATEMENT > ;< $ , ~ > ;
+
+
+EXPRESSION2 ==> < relop , relop SIMPLE_EXPRESSION > ;< ) , ~ > ;< ; , ~ > ;
+
+
+IF ==> < if , if ( EXPRESSION ) { STATEMENT } else { STATEMENT } > ;< $ , SYNC > ;< float , SYNC > ;< id , SYNC > ;< int , SYNC > ;< while , SYNC > ;< } , SYNC > ;
+
+
+PRIMITIVE_TYPE ==> < float , float > ;< int , int > ;< id , SYNC > ;
+
+
+DECLARATION ==> < float , PRIMITIVE_TYPE id ; > ;< $ , SYNC > ;< int , PRIMITIVE_TYPE id ; > ;< while , SYNC > ;< id , SYNC > ;< if , SYNC > ;< } , SYNC > ;
+
+
+STATEMENT ==> < float , DECLARATION > ;< id , ASSIGNMENT > ;< if , IF > ;< int , DECLARATION > ;< while , WHILE > ;< $ , SYNC > ;< } , SYNC > ;
+
+
+EXPRESSION ==> < + , SIMPLE_EXPRESSION EXPRESSION2 > ;< ) , SYNC > ;< id , SIMPLE_EXPRESSION EXPRESSION2 > ;< ( , SIMPLE_EXPRESSION EXPRESSION2 > ;< num , SIMPLE_EXPRESSION EXPRESSION2 > ;< - , SIMPLE_EXPRESSION EXPRESSION2 > ;< ; , SYNC > ;
+
+
+STATEMENT_LIST ==> < float , STATEMENT ANOTHER_STATEMENT > ;< id , STATEMENT ANOTHER_STATEMENT > ;< if , STATEMENT ANOTHER_STATEMENT > ;< int , STATEMENT ANOTHER_STATEMENT > ;< while , STATEMENT ANOTHER_STATEMENT > ;< $ , SYNC > ;
+
+
+ANOTHER_EXPRESSION ==> < addop , addop TERM ANOTHER_EXPRESSION > ;< relop , ~ > ;< ) , ~ > ;< ; , ~ > ;
+
+
+METHOD_BODY ==> < float , STATEMENT_LIST > ;< id , STATEMENT_LIST > ;< if , STATEMENT_LIST > ;< int , STATEMENT_LIST > ;< while , STATEMENT_LIST > ;< $ , SYNC > ;
+
+

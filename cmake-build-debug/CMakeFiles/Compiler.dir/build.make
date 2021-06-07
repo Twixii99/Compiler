@@ -167,18 +167,70 @@ CMakeFiles/Compiler.dir/DFAminimizer/DFAminimizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/DFAminimizer/DFAminimizer.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Kamal/CLionProjects/Compiler/DFAminimizer/DFAminimizer.cpp -o CMakeFiles/Compiler.dir/DFAminimizer/DFAminimizer.cpp.s
 
-CMakeFiles/Compiler.dir/printer.cpp.o: CMakeFiles/Compiler.dir/flags.make
-CMakeFiles/Compiler.dir/printer.cpp.o: ../printer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Kamal/CLionProjects/Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Compiler.dir/printer.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Compiler.dir/printer.cpp.o -c /Users/Kamal/CLionProjects/Compiler/printer.cpp
+CMakeFiles/Compiler.dir/printer_phase2/printer.cpp.o: CMakeFiles/Compiler.dir/flags.make
+CMakeFiles/Compiler.dir/printer_phase2/printer.cpp.o: ../printer_phase2/printer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Kamal/CLionProjects/Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/Compiler.dir/printer_phase2/printer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Compiler.dir/printer_phase2/printer.cpp.o -c /Users/Kamal/CLionProjects/Compiler/printer_phase2/printer.cpp
 
-CMakeFiles/Compiler.dir/printer.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler.dir/printer.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Kamal/CLionProjects/Compiler/printer.cpp > CMakeFiles/Compiler.dir/printer.cpp.i
+CMakeFiles/Compiler.dir/printer_phase2/printer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler.dir/printer_phase2/printer.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Kamal/CLionProjects/Compiler/printer_phase2/printer.cpp > CMakeFiles/Compiler.dir/printer_phase2/printer.cpp.i
 
-CMakeFiles/Compiler.dir/printer.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/printer.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Kamal/CLionProjects/Compiler/printer.cpp -o CMakeFiles/Compiler.dir/printer.cpp.s
+CMakeFiles/Compiler.dir/printer_phase2/printer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/printer_phase2/printer.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Kamal/CLionProjects/Compiler/printer_phase2/printer.cpp -o CMakeFiles/Compiler.dir/printer_phase2/printer.cpp.s
+
+CMakeFiles/Compiler.dir/printer_phase2/parser_interface.cpp.o: CMakeFiles/Compiler.dir/flags.make
+CMakeFiles/Compiler.dir/printer_phase2/parser_interface.cpp.o: ../printer_phase2/parser_interface.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Kamal/CLionProjects/Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/Compiler.dir/printer_phase2/parser_interface.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Compiler.dir/printer_phase2/parser_interface.cpp.o -c /Users/Kamal/CLionProjects/Compiler/printer_phase2/parser_interface.cpp
+
+CMakeFiles/Compiler.dir/printer_phase2/parser_interface.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler.dir/printer_phase2/parser_interface.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Kamal/CLionProjects/Compiler/printer_phase2/parser_interface.cpp > CMakeFiles/Compiler.dir/printer_phase2/parser_interface.cpp.i
+
+CMakeFiles/Compiler.dir/printer_phase2/parser_interface.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/printer_phase2/parser_interface.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Kamal/CLionProjects/Compiler/printer_phase2/parser_interface.cpp -o CMakeFiles/Compiler.dir/printer_phase2/parser_interface.cpp.s
+
+CMakeFiles/Compiler.dir/phase2/outputGenerator.cpp.o: CMakeFiles/Compiler.dir/flags.make
+CMakeFiles/Compiler.dir/phase2/outputGenerator.cpp.o: ../phase2/outputGenerator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Kamal/CLionProjects/Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/Compiler.dir/phase2/outputGenerator.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Compiler.dir/phase2/outputGenerator.cpp.o -c /Users/Kamal/CLionProjects/Compiler/phase2/outputGenerator.cpp
+
+CMakeFiles/Compiler.dir/phase2/outputGenerator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler.dir/phase2/outputGenerator.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Kamal/CLionProjects/Compiler/phase2/outputGenerator.cpp > CMakeFiles/Compiler.dir/phase2/outputGenerator.cpp.i
+
+CMakeFiles/Compiler.dir/phase2/outputGenerator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/phase2/outputGenerator.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Kamal/CLionProjects/Compiler/phase2/outputGenerator.cpp -o CMakeFiles/Compiler.dir/phase2/outputGenerator.cpp.s
+
+CMakeFiles/Compiler.dir/phase2/tableBuilder.cpp.o: CMakeFiles/Compiler.dir/flags.make
+CMakeFiles/Compiler.dir/phase2/tableBuilder.cpp.o: ../phase2/tableBuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Kamal/CLionProjects/Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/Compiler.dir/phase2/tableBuilder.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Compiler.dir/phase2/tableBuilder.cpp.o -c /Users/Kamal/CLionProjects/Compiler/phase2/tableBuilder.cpp
+
+CMakeFiles/Compiler.dir/phase2/tableBuilder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler.dir/phase2/tableBuilder.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Kamal/CLionProjects/Compiler/phase2/tableBuilder.cpp > CMakeFiles/Compiler.dir/phase2/tableBuilder.cpp.i
+
+CMakeFiles/Compiler.dir/phase2/tableBuilder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/phase2/tableBuilder.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Kamal/CLionProjects/Compiler/phase2/tableBuilder.cpp -o CMakeFiles/Compiler.dir/phase2/tableBuilder.cpp.s
+
+CMakeFiles/Compiler.dir/intialize/initialization.cpp.o: CMakeFiles/Compiler.dir/flags.make
+CMakeFiles/Compiler.dir/intialize/initialization.cpp.o: ../intialize/initialization.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Kamal/CLionProjects/Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/Compiler.dir/intialize/initialization.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Compiler.dir/intialize/initialization.cpp.o -c /Users/Kamal/CLionProjects/Compiler/intialize/initialization.cpp
+
+CMakeFiles/Compiler.dir/intialize/initialization.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Compiler.dir/intialize/initialization.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/Kamal/CLionProjects/Compiler/intialize/initialization.cpp > CMakeFiles/Compiler.dir/intialize/initialization.cpp.i
+
+CMakeFiles/Compiler.dir/intialize/initialization.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Compiler.dir/intialize/initialization.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/Kamal/CLionProjects/Compiler/intialize/initialization.cpp -o CMakeFiles/Compiler.dir/intialize/initialization.cpp.s
 
 # Object files for target Compiler
 Compiler_OBJECTS = \
@@ -189,7 +241,11 @@ Compiler_OBJECTS = \
 "CMakeFiles/Compiler.dir/NFA/graph.cpp.o" \
 "CMakeFiles/Compiler.dir/DFA/DFAbuilder.cpp.o" \
 "CMakeFiles/Compiler.dir/DFAminimizer/DFAminimizer.cpp.o" \
-"CMakeFiles/Compiler.dir/printer.cpp.o"
+"CMakeFiles/Compiler.dir/printer_phase2/printer.cpp.o" \
+"CMakeFiles/Compiler.dir/printer_phase2/parser_interface.cpp.o" \
+"CMakeFiles/Compiler.dir/phase2/outputGenerator.cpp.o" \
+"CMakeFiles/Compiler.dir/phase2/tableBuilder.cpp.o" \
+"CMakeFiles/Compiler.dir/intialize/initialization.cpp.o"
 
 # External object files for target Compiler
 Compiler_EXTERNAL_OBJECTS =
@@ -201,10 +257,14 @@ Compiler: CMakeFiles/Compiler.dir/Main.cpp.o
 Compiler: CMakeFiles/Compiler.dir/NFA/graph.cpp.o
 Compiler: CMakeFiles/Compiler.dir/DFA/DFAbuilder.cpp.o
 Compiler: CMakeFiles/Compiler.dir/DFAminimizer/DFAminimizer.cpp.o
-Compiler: CMakeFiles/Compiler.dir/printer.cpp.o
+Compiler: CMakeFiles/Compiler.dir/printer_phase2/printer.cpp.o
+Compiler: CMakeFiles/Compiler.dir/printer_phase2/parser_interface.cpp.o
+Compiler: CMakeFiles/Compiler.dir/phase2/outputGenerator.cpp.o
+Compiler: CMakeFiles/Compiler.dir/phase2/tableBuilder.cpp.o
+Compiler: CMakeFiles/Compiler.dir/intialize/initialization.cpp.o
 Compiler: CMakeFiles/Compiler.dir/build.make
 Compiler: CMakeFiles/Compiler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Kamal/CLionProjects/Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable Compiler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Kamal/CLionProjects/Compiler/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable Compiler"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Compiler.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

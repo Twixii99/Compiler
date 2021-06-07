@@ -4,7 +4,7 @@
 
 using namespace std;
 
-vector<int> errornous_lines;
+set<int> errornous_lines;
 
 int line_number = 0;
 
@@ -35,16 +35,17 @@ void Printer::__init__() {
     this->output.open(this->output_file);
     this->controller();
     this->print_errors();
-    dfa_minimizer.print_DFA_table(this->table_file_name);
 }
 
 void Printer::controller() {
-    if(!this->input.is_open())
+    if(!this->input.is_open()) {
         cout << "Check your input file path, please...";
+        exit(1);
+    }
 
     char input_line[256];
     while(!this->input.eof()) {
-        input.getline(input_line, 256);
+        input.getline(input_line, 255);
         ::line_number++;
         string current_line(input_line);
         istringstream lexems(current_line);
@@ -58,10 +59,11 @@ void Printer::controller() {
             for (int i = 0; i < lexeme.length(); ++i) {
                 this->current_state = this->move(lexeme.at(i), current_state);
                 if (this->current_state == this->start_state) {
-                    if (this->is_a_final_detected)
+                    if (this->is_a_final_detected) {
                         this->output << this->last_accepted_state->acceptance_expression << endl,
-                                this->is_a_final_detected = false,
-                                i = last_accepted_index + 1;
+                        this->is_a_final_detected = false,
+                        i = last_accepted_index;
+                    }
                 }
                 if (this->check(current_state)) {
                     last_accepted_index = i;
@@ -91,7 +93,7 @@ string upgrade_string(DFAstate* start_state, string str) {
 }
 
 void error_handle(){
-    ::errornous_lines.push_back(::line_number);
+    ::errornous_lines.insert(::line_number);
 }
 
 void Printer::print_errors() {

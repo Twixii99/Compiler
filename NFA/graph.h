@@ -8,14 +8,14 @@
 #include <string>
 #include <iostream>
 #include <map>
-#include <unordered_map>
+
 using namespace std;
 #define eps '~'
 
 class State{
 public:
     multimap<char,State*> children;
-    string label;
+    std::string label;
     bool final;
     bool reserved;
 
@@ -23,7 +23,6 @@ public:
         final = false;
         reserved = false;
     }
-
 };
 
 class Graph{

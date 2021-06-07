@@ -51,7 +51,7 @@ void Parser::keyword_punctuation_builder(string& current_line) {
     while(splitter != empty) {
         if(string(*splitter).empty()) splitter++;
         this->tokens.push_back(make_pair(*splitter, make_pair(*splitter, true))),
-                splitter++;
+        splitter++;
     }
 }
 

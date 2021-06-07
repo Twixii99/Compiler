@@ -304,6 +304,33 @@ NFA/graph.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/NFA/graph.cpp.s
 .PHONY : NFA/graph.cpp.s
 
+intialize/initialization.o: intialize/initialization.cpp.o
+
+.PHONY : intialize/initialization.o
+
+# target to build an object file
+intialize/initialization.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/intialize/initialization.cpp.o
+.PHONY : intialize/initialization.cpp.o
+
+intialize/initialization.i: intialize/initialization.cpp.i
+
+.PHONY : intialize/initialization.i
+
+# target to preprocess a source file
+intialize/initialization.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/intialize/initialization.cpp.i
+.PHONY : intialize/initialization.cpp.i
+
+intialize/initialization.s: intialize/initialization.cpp.s
+
+.PHONY : intialize/initialization.s
+
+# target to generate assembly for a file
+intialize/initialization.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/intialize/initialization.cpp.s
+.PHONY : intialize/initialization.cpp.s
+
 parser/parser.o: parser/parser.cpp.o
 
 .PHONY : parser/parser.o
@@ -331,32 +358,113 @@ parser/parser.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/parser/parser.cpp.s
 .PHONY : parser/parser.cpp.s
 
-printer.o: printer.cpp.o
+phase2/outputGenerator.o: phase2/outputGenerator.cpp.o
 
-.PHONY : printer.o
+.PHONY : phase2/outputGenerator.o
 
 # target to build an object file
-printer.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/printer.cpp.o
-.PHONY : printer.cpp.o
+phase2/outputGenerator.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/phase2/outputGenerator.cpp.o
+.PHONY : phase2/outputGenerator.cpp.o
 
-printer.i: printer.cpp.i
+phase2/outputGenerator.i: phase2/outputGenerator.cpp.i
 
-.PHONY : printer.i
+.PHONY : phase2/outputGenerator.i
 
 # target to preprocess a source file
-printer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/printer.cpp.i
-.PHONY : printer.cpp.i
+phase2/outputGenerator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/phase2/outputGenerator.cpp.i
+.PHONY : phase2/outputGenerator.cpp.i
 
-printer.s: printer.cpp.s
+phase2/outputGenerator.s: phase2/outputGenerator.cpp.s
 
-.PHONY : printer.s
+.PHONY : phase2/outputGenerator.s
 
 # target to generate assembly for a file
-printer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/printer.cpp.s
-.PHONY : printer.cpp.s
+phase2/outputGenerator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/phase2/outputGenerator.cpp.s
+.PHONY : phase2/outputGenerator.cpp.s
+
+phase2/tableBuilder.o: phase2/tableBuilder.cpp.o
+
+.PHONY : phase2/tableBuilder.o
+
+# target to build an object file
+phase2/tableBuilder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/phase2/tableBuilder.cpp.o
+.PHONY : phase2/tableBuilder.cpp.o
+
+phase2/tableBuilder.i: phase2/tableBuilder.cpp.i
+
+.PHONY : phase2/tableBuilder.i
+
+# target to preprocess a source file
+phase2/tableBuilder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/phase2/tableBuilder.cpp.i
+.PHONY : phase2/tableBuilder.cpp.i
+
+phase2/tableBuilder.s: phase2/tableBuilder.cpp.s
+
+.PHONY : phase2/tableBuilder.s
+
+# target to generate assembly for a file
+phase2/tableBuilder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/phase2/tableBuilder.cpp.s
+.PHONY : phase2/tableBuilder.cpp.s
+
+printer_phase2/parser_interface.o: printer_phase2/parser_interface.cpp.o
+
+.PHONY : printer_phase2/parser_interface.o
+
+# target to build an object file
+printer_phase2/parser_interface.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/printer_phase2/parser_interface.cpp.o
+.PHONY : printer_phase2/parser_interface.cpp.o
+
+printer_phase2/parser_interface.i: printer_phase2/parser_interface.cpp.i
+
+.PHONY : printer_phase2/parser_interface.i
+
+# target to preprocess a source file
+printer_phase2/parser_interface.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/printer_phase2/parser_interface.cpp.i
+.PHONY : printer_phase2/parser_interface.cpp.i
+
+printer_phase2/parser_interface.s: printer_phase2/parser_interface.cpp.s
+
+.PHONY : printer_phase2/parser_interface.s
+
+# target to generate assembly for a file
+printer_phase2/parser_interface.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/printer_phase2/parser_interface.cpp.s
+.PHONY : printer_phase2/parser_interface.cpp.s
+
+printer_phase2/printer.o: printer_phase2/printer.cpp.o
+
+.PHONY : printer_phase2/printer.o
+
+# target to build an object file
+printer_phase2/printer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/printer_phase2/printer.cpp.o
+.PHONY : printer_phase2/printer.cpp.o
+
+printer_phase2/printer.i: printer_phase2/printer.cpp.i
+
+.PHONY : printer_phase2/printer.i
+
+# target to preprocess a source file
+printer_phase2/printer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/printer_phase2/printer.cpp.i
+.PHONY : printer_phase2/printer.cpp.i
+
+printer_phase2/printer.s: printer_phase2/printer.cpp.s
+
+.PHONY : printer_phase2/printer.s
+
+# target to generate assembly for a file
+printer_phase2/printer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Compiler.dir/build.make CMakeFiles/Compiler.dir/printer_phase2/printer.cpp.s
+.PHONY : printer_phase2/printer.cpp.s
 
 # Help Target
 help:
@@ -385,12 +493,24 @@ help:
 	@echo "... NFA/graph.o"
 	@echo "... NFA/graph.i"
 	@echo "... NFA/graph.s"
+	@echo "... intialize/initialization.o"
+	@echo "... intialize/initialization.i"
+	@echo "... intialize/initialization.s"
 	@echo "... parser/parser.o"
 	@echo "... parser/parser.i"
 	@echo "... parser/parser.s"
-	@echo "... printer.o"
-	@echo "... printer.i"
-	@echo "... printer.s"
+	@echo "... phase2/outputGenerator.o"
+	@echo "... phase2/outputGenerator.i"
+	@echo "... phase2/outputGenerator.s"
+	@echo "... phase2/tableBuilder.o"
+	@echo "... phase2/tableBuilder.i"
+	@echo "... phase2/tableBuilder.s"
+	@echo "... printer_phase2/parser_interface.o"
+	@echo "... printer_phase2/parser_interface.i"
+	@echo "... printer_phase2/parser_interface.s"
+	@echo "... printer_phase2/printer.o"
+	@echo "... printer_phase2/printer.i"
+	@echo "... printer_phase2/printer.s"
 .PHONY : help
 
 
